@@ -1,4 +1,4 @@
-package Helper;
+package helper;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -7,13 +7,12 @@ import java.util.Properties;
 public class PropertyManager {
 	
 	private static PropertyManager pm;
-    private String propertyFilePath = System.getProperty("user.dir")+
-            "\\resources\\configuration.properties";
+    private String propertyFilePath = System.getProperty("user.dir")+"\\resources\\configuration.properties";
     private String url;
-    private String Username;
-    private String Password;
-    private String Testpaymentcard;
-    public  String browser;
+    private String username;
+    private String password;
+    private String testpaymentcard;
+    private String browser;
     
     
     
@@ -37,9 +36,9 @@ public class PropertyManager {
  
         //Get properties from configuration.properties
         url = prop.getProperty("url");
-        Username = prop.getProperty("Username");
-        Password = prop.getProperty("Password");
-        Testpaymentcard = prop.getProperty("Testpaymentcard");
+        username = prop.getProperty("Username");
+        password = prop.getProperty("Password");
+        testpaymentcard = prop.getProperty("Testpaymentcard");
         browser = prop.getProperty("browser");
     }
     
@@ -48,15 +47,18 @@ public class PropertyManager {
       }
    
     public String getUsername () {
-        return Username;
+        return username;
     }
    
     public String getPassword () {
-        return Password;
+        return password;
     }
     
     public String getTestpaymentcard () {
-        return Testpaymentcard;
+        return testpaymentcard;
     }
-
+    
+    public String getBroswer () {
+        return browser;
+    }
 }

@@ -1,8 +1,10 @@
 package pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+
+import helper.PropertyManager;
 
 public class RegisterPage extends BasePage{
 
@@ -10,43 +12,32 @@ public class RegisterPage extends BasePage{
 		super(driver);
 	}
 
-	@FindBy (id="field-Member_CLI")
-	WebElement mobile_number;    
+	By mobilenumber = By.id("field-Member_CLI");
+	By climsgbox = By.id("climsgbox");
+	By mailaddress = By.id("field-Member_Email");
+	By emailmsgbox = By.id("emailmsgbox");
+	By password = By.id("field-MemberPassword");
+	By error = By.cssSelector(".error");
+	By warningnotification = By.cssSelector(".warning-notification");
+	By marketing = By.name("Marketing");
+	By datasharing = By.className("DataSharing");
+	By recaptchaanchor = By.id("recaptcha-anchor");
+	By terms = By.name("terms");
+	By next = By.id("labyrinth_UserDetails_next");
+	By cancel = By.id("labyrinth_cancel");
 	
-	@FindBy (id="climsgbox")
-	WebElement climsgbox;   
-
-	@FindBy (id="field-Member_Email")
-	WebElement mail_address;  
 	
-	@FindBy (id="emailmsgbox")
-	WebElement emailmsgbox; 
-		
-	@FindBy (id="field-MemberPassword")
-	WebElement password;
+	public void navigateToRegisterPage() {
+		String username = PropertyManager.getInstance().getUsername();
+		String password = PropertyManager.getInstance().getPassword();
+		String url = PropertyManager.getInstance().getURL();
+		driver.navigate().to("http://"+username+":"+password+"@"+url+"/register");
+	}
 	
-	@FindBy (css=".error")
-	WebElement error;
+	public void verifyEmail(String num) {
+		inputText(mobilenumber, num);
+        driver.findElement(mobilenumber).sendKeys(Keys.ENTER);				
+	}
 	
-	@FindBy (css=".warning-notification")
-	WebElement warningnotification;
-	
-	@FindBy (name="Marketing")
-	WebElement marketing;
-	
-	@FindBy (name="DataSharing")
-	WebElement datasharing;
-	
-	@FindBy (id="recaptcha-anchor")
-	WebElement recaptchaanchor;
-	
-	@FindBy (name="terms")
-	WebElement terms;
-	
-	@FindBy (id="labyrinth_UserDetails_next")
-	WebElement next;
-	
-	@FindBy (id="labyrinth_cancel")
-	WebElement cancel; 
 	
 }
