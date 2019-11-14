@@ -78,6 +78,7 @@ public class RegisterTests extends BaseTest {
     	registerPage.inputPassword("wertgfdertyuj");
     	registerPage.verifyPassowrdError("The password does not meet the correct format.");
     	//verify valid password
+    	registerPage.navigateToRegisterPage();
     	registerPage.inputPassword("Qw11234668");
     	registerPage.verifyNoPassowrdError();
     	registerPage.clickNext();
@@ -90,7 +91,7 @@ public class RegisterTests extends BaseTest {
     	RegisterPage registerPage = new RegisterPage(driver);
     	registerPage.navigateToRegisterPage();
     	registerPage.clickNext();
-    	registerPage.verifyMobileMsbox("Mobile Number is required");
+    	registerPage.verifyMobileError("Mobile Number is required");
     	registerPage.verifyMailError("Email address is required");
     	registerPage.verifyPassowrdError("Password is required");
     	registerPage.verifySpanError("Please complete the Recaptcha.");
@@ -105,11 +106,11 @@ public class RegisterTests extends BaseTest {
     	registerPage.navigateToRegisterPage();
     	registerPage.inputMobile("69356898");
     	registerPage.verifyMobileMsbox("Number available to register");
-    	registerPage.inputEmail("123456@gmail.com");
+    	registerPage.inputEmail("123456890@gmail.com");
     	registerPage.verifyMailMsbox("Email available to register");
     	registerPage.inputPassword("Qw11234668");
-    	registerPage.clickRecaptchaanchor();
-    	registerPage.clickTerms();
-    	registerPage.clickNext();
+    	registerPage.clickRecaptchaanchor(); //stopped because of picture
+    	//registerPage.clickTerms();
+    	//registerPage.clickNext();
     }
 }
