@@ -8,10 +8,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class WebDriverFactory {
 	public static final String WEBDRIVER = PropertyManager.getInstance().getBroswer();
 	
-	private WebDriverFactory() {
-		throw new RuntimeException("Unsupported webdriver");
-	}
-
     public static WebDriver createWebDriver() {
     	
        	if(WEBDRIVER.equals("firefox")) 

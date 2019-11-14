@@ -70,8 +70,18 @@ public class RegisterTests extends BaseTest {
     public void testPassword () {
     	RegisterPage registerPage = new RegisterPage(driver);
     	registerPage.navigateToRegisterPage();
-    	registerPage.inputPassword("123");
+    	//verify invalid password 
+    	registerPage.inputPassword("1");
     	registerPage.verifyPassowrdError("The password does not meet the correct format.");
+    	registerPage.inputPassword("1234567890123");
+    	registerPage.verifyPassowrdError("The password does not meet the correct format.");
+    	registerPage.inputPassword("wertgfdertyuj");
+    	registerPage.verifyPassowrdError("The password does not meet the correct format.");
+    	//verify valid password
+    	registerPage.inputPassword("Qw11234668");
+    	registerPage.verifyNoPassowrdError();
+    	registerPage.clickNext();
+    	registerPage.verifyNoPassowrdError();
     }
     
 	@DisplayName("Verify Error message in Register Page")

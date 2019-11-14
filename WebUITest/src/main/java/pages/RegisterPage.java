@@ -31,12 +31,13 @@ public class RegisterPage extends BasePage{
 	By recaptchaanchor = By.id("recaptcha-anchor");
 	By recaptchaerror = By.cssSelector(".error:nth-child(1)");
 	By terms = By.name("terms");
+	By termserror = By.xpath("//*[@id=\"header3\"]/ol/li/div/div/span");
 	By next = By.id("labyrinth_UserDetails_next");
 	By cancel = By.id("labyrinth_cancel");
 	
 	
 	public void navigateToRegisterPage() {
-		driver.navigate().to(BasePage.URL+"/register");
+		driver.navigate().to(BasePage.url+"/register");
 	}
 	
 	public void inputMobile(String input) {
@@ -85,6 +86,8 @@ public class RegisterPage extends BasePage{
 			assertEquals(expectedText, readInnerText(recaptchaerror));	
 			break;
 		case "You must agree to the Terms & Conditions":
+			waitLoadInnerText(termserror,expectedText);
+			assertEquals(expectedText, readInnerText(termserror));	
 			break;		
 		}	
 	}
@@ -109,6 +112,11 @@ public class RegisterPage extends BasePage{
 		assertThrows(NoSuchElementException.class,()->  driver.findElement(mobileerror));			
 	}
 	
+	public void verifyNoPassowrdError() {
+		
+		assertThrows(NoSuchElementException.class,()->  driver.findElement(passworderror));			
+	}
+	
 	public void verifyPassowrdError(String expectedText) {
 		waitLoadInnerText(passworderror,expectedText);
 		assertEquals(expectedText, readInnerText(passworderror));			
@@ -118,10 +126,6 @@ public class RegisterPage extends BasePage{
 		driver.switchTo().frame(driver.findElement(iframe));
 		waitVisibility(recaptchaanchor);
 		driver.findElement(recaptchaanchor).click(); 		
-	}
-	
-	public void verifyRecaptchaanchorChecked() {//aria-checked=true
-
 	}
 	
 	public void clickTerms() {

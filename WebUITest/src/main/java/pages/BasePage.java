@@ -16,7 +16,7 @@ public class BasePage{
 	
 
 	public WebDriver driver;
-    public static String URL;
+    public static String url;
 	
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
@@ -62,8 +62,8 @@ public class BasePage{
     
     public void scrollToView(By elementBy) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement Element = driver.findElement(elementBy);
-        js.executeScript("arguments[0].scrollIntoView();", Element);
+        WebElement element = driver.findElement(elementBy);
+        js.executeScript("arguments[0].scrollIntoView();", element);
     	
     }
     
@@ -71,7 +71,7 @@ public class BasePage{
 		String username = PropertyManager.getInstance().getUsername();
 		String password = PropertyManager.getInstance().getPassword();
 		String server = PropertyManager.getInstance().getServer();
-		URL = "http://"+username+":"+password+"@"+server;	
-		driver.navigate().to(URL);
+		url = "http://"+username+":"+password+"@"+server;	
+		driver.navigate().to(url);
 	}
 }

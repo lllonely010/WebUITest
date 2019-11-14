@@ -8,11 +8,11 @@ public class PropertyManager {
 	
 	private static PropertyManager pm;
     private static String propertyFilePath = System.getProperty("user.dir")+"\\resources\\configuration.properties";
-    private static String server;
-    private static String username;
-    private static String password;
-    private static String testpaymentcard;
-    private static String browser;
+    private String server;
+    private String username;
+    private String password;
+    private String testpaymentcard;
+    private String browser;
     
     
     
