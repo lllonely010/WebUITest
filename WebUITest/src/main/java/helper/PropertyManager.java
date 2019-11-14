@@ -61,4 +61,8 @@ public class PropertyManager {
     public String getBroswer () {
         return browser;
     }
+    
+    public String getURL() {
+    	return "http://"+username+":"+password+"@"+server;
+    }
 }

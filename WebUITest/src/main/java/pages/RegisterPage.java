@@ -47,24 +47,12 @@ public class RegisterPage extends BasePage{
         driver.findElement(mobilenumber).sendKeys(Keys.TAB);
 	}
 	
-	public void verifyMobileMsbox(String expectedText) {
-		waitScriptDone();
-		waitLoadInnerText(climsgbox,expectedText);
-		assertEquals(expectedText, readInnerText(climsgbox));		
-	}
-	
 	public void inputEmail(String input) {
 		waitVisibility(mailaddress);
 		clearText(mailaddress);
 		inputText(mailaddress, input);
         driver.findElement(mailaddress).sendKeys(Keys.TAB);
-	}
-	
-	public void verifyMailMsbox(String expectedText) {
-		waitScriptDone();
-		waitLoadInnerText(emailmsgbox,expectedText);
-		assertEquals(expectedText, readInnerText(emailmsgbox));		
-	}
+	}	
 	
 	public void inputPassword(String input) {
 		waitVisibility(password);
@@ -72,7 +60,18 @@ public class RegisterPage extends BasePage{
 		inputText(password, input);
         driver.findElement(password).sendKeys(Keys.TAB);
 	}
+	public void verifyMobileMsbox(String expectedText) {
+		waitScriptDone();
+		waitLoadInnerText(climsgbox,expectedText);
+		assertEquals(expectedText, readInnerText(climsgbox));		
+	}
 	
+	public void verifyMailMsbox(String expectedText) {
+		waitScriptDone();
+		waitLoadInnerText(emailmsgbox,expectedText);
+		assertEquals(expectedText, readInnerText(emailmsgbox));		
+	}
+		
 	public void verifyWarningNotification(String expectedText) {
 		waitLoadInnerText(warningnotification,expectedText);
 		assertEquals(expectedText, readInnerText(warningnotification));			
@@ -88,7 +87,9 @@ public class RegisterPage extends BasePage{
 		case "You must agree to the Terms & Conditions":
 			waitLoadInnerText(termserror,expectedText);
 			assertEquals(expectedText, readInnerText(termserror));	
-			break;		
+			break;	
+		default :
+			break;
 		}	
 	}
 	
@@ -100,6 +101,11 @@ public class RegisterPage extends BasePage{
 	public void verifyMailError(String expectedText) {
 		waitLoadInnerText(emailerror,expectedText);
 		assertEquals(expectedText, readInnerText(emailerror));			
+	}
+		
+	public void verifyPassowrdError(String expectedText) {
+		waitLoadInnerText(passworderror,expectedText);
+		assertEquals(expectedText, readInnerText(passworderror));			
 	}
 	
 	public void verifyNoEmailError() {
@@ -116,11 +122,7 @@ public class RegisterPage extends BasePage{
 		
 		assertThrows(NoSuchElementException.class,()->  driver.findElement(passworderror));			
 	}
-	
-	public void verifyPassowrdError(String expectedText) {
-		waitLoadInnerText(passworderror,expectedText);
-		assertEquals(expectedText, readInnerText(passworderror));			
-	}
+
 	
 	public void clickRecaptchaanchor() {		
 		driver.switchTo().frame(driver.findElement(iframe));

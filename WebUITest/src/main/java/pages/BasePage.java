@@ -16,7 +16,7 @@ public class BasePage{
 	
 
 	public WebDriver driver;
-    public static String url;
+    public static String url = PropertyManager.getInstance().getURL();
 	
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
@@ -68,10 +68,6 @@ public class BasePage{
     }
     
 	public void loginToRG() {
-		String username = PropertyManager.getInstance().getUsername();
-		String password = PropertyManager.getInstance().getPassword();
-		String server = PropertyManager.getInstance().getServer();
-		url = "http://"+username+":"+password+"@"+server;	
 		driver.navigate().to(url);
 	}
 }

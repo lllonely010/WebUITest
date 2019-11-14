@@ -3,29 +3,28 @@ package tests;
 import org.openqa.selenium.WebDriver;
 import helper.WebDriverFactory;
 import pages.BasePage;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
 public class BaseTest {
 	
-    public WebDriver driver;
-    public BasePage basepage;
-    
+    public static WebDriver driver;
+    public static BasePage basepage;    
    
-    @BeforeEach
-    public void setup () {
-    	
+    @BeforeAll
+    public static void setup()
+    {
 		driver = WebDriverFactory.createWebDriver();
-		driver.manage().window().maximize();
 		basepage = new BasePage(driver);
-		basepage.loginToRG();
+		basepage.loginToRG();    	
     }
- 
-    @AfterEach
-    public void teardown () {
+    
+    @AfterAll
+    public static void teardown () {
         driver.quit();
     }
 
