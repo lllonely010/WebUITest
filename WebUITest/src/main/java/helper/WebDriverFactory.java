@@ -23,10 +23,8 @@ public class WebDriverFactory {
        		System.setProperty("webdriver.chrome.driver", "lib\\chromedriver.exe");
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--start-maximized");
-            options.addArguments("--disable-gpu");
-            options.addArguments("--disable-software-rasterizer");
-            options.addArguments("--disable-gpu-sandbox");
-            options.addArguments("--disable-features=VizDisplayCompositor");
+            options.addArguments("disable-infobars");
+            options.addArguments("--disable-extensions");
             return new ChromeDriver(options);
        	}
 		return null;

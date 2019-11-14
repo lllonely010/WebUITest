@@ -7,12 +7,12 @@ import java.util.Properties;
 public class PropertyManager {
 	
 	private static PropertyManager pm;
-    private String propertyFilePath = System.getProperty("user.dir")+"\\resources\\configuration.properties";
-    private String url;
-    private String username;
-    private String password;
-    private String testpaymentcard;
-    private String browser;
+    private static String propertyFilePath = System.getProperty("user.dir")+"\\resources\\configuration.properties";
+    private static String server;
+    private static String username;
+    private static String password;
+    private static String testpaymentcard;
+    private static String browser;
     
     
     
@@ -35,15 +35,15 @@ public class PropertyManager {
         }
  
         //Get properties from configuration.properties
-        url = prop.getProperty("url");
+        server = prop.getProperty("server");
         username = prop.getProperty("Username");
         password = prop.getProperty("Password");
         testpaymentcard = prop.getProperty("Testpaymentcard");
         browser = prop.getProperty("browser");
     }
     
-    public String getURL () {
-        return url;
+    public String getServer () {
+        return server;
       }
    
     public String getUsername () {
