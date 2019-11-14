@@ -1,0 +1,232 @@
+{
+  "uid" : "5643ee6b3afd42c3",
+  "name" : "Verify Error message in Register Page",
+  "fullName" : "tests.RegisterTests.testErrorMessage",
+  "historyId" : "95ab5f0379af8c0fe2906c537077b514",
+  "time" : {
+    "start" : 1573769560565,
+    "stop" : 1573769564951,
+    "duration" : 4386
+  },
+  "description" : "No input to test all error messages in Register Page",
+  "descriptionHtml" : "<p>No input to test all error messages in Register Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "No input to test all error messages in Register Page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate To Register Page",
+      "time" : {
+        "start" : 1573769560660,
+        "stop" : 1573769562215,
+        "duration" : 1555
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click next.",
+      "time" : {
+        "start" : 1573769562235,
+        "stop" : 1573769564227,
+        "duration" : 1992
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Mobile Number is required for mobile error.",
+      "time" : {
+        "start" : 1573769564230,
+        "stop" : 1573769564389,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Mobile Number is required"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Email address is required for mail error.",
+      "time" : {
+        "start" : 1573769564390,
+        "stop" : 1573769564526,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Email address is required"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Password is required for password error.",
+      "time" : {
+        "start" : 1573769564527,
+        "stop" : 1573769564641,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Password is required"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Please complete the Recaptcha. for span message.",
+      "time" : {
+        "start" : 1573769564641,
+        "stop" : 1573769564746,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Please complete the Recaptcha."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify You must agree to the Terms & Conditions for span message.",
+      "time" : {
+        "start" : 1573769564746,
+        "stop" : 1573769564845,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "You must agree to the Terms & Conditions"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify There is an error in the form. Please check for details below. for warning notification.",
+      "time" : {
+        "start" : 1573769564845,
+        "stop" : 1573769564935,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "There is an error in the form. Please check for details below."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Input Test"
+  }, {
+    "name" : "epic",
+    "value" : "Register Page Tests Epic"
+  }, {
+    "name" : "story",
+    "value" : "Test all error messages in Register Page"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CQ0TMOR"
+  }, {
+    "name" : "thread",
+    "value" : "13644@DESKTOP-CQ0TMOR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testErrorMessage"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bde88e30b7f1c12b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573769086903,
+        "stop" : 1573769090772,
+        "duration" : 3869
+      }
+    }, {
+      "uid" : "d9c55ca003cb8ba8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766552967,
+        "stop" : 1573766557390,
+        "duration" : 4423
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5643ee6b3afd42c3.json",
+  "parameterValues" : [ ]
+}

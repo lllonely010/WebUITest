@@ -1,29 +1,29 @@
 {
-  "uid" : "3f6df90378911457",
-  "name" : "Verify Mobile Number field in Register Page",
-  "fullName" : "tests.RegisterTests.testMobile",
-  "historyId" : "8a96bc96ec0a6927baedd7ffb0e2d3fc",
+  "uid" : "582755b55db31079",
+  "name" : "Verify Email Address in Register Page",
+  "fullName" : "tests.RegisterTests.testEmail",
+  "historyId" : "bd22bccd899ad98fb572f616fa12a855",
   "time" : {
-    "start" : 1573766572277,
-    "stop" : 1573766589290,
-    "duration" : 17013
+    "start" : 1573766557505,
+    "stop" : 1573766567703,
+    "duration" : 10198
   },
-  "description" : "Using invalid and valid mobile number input to test validation and error message",
-  "descriptionHtml" : "<p>Using invalid and valid mobile number input to test validation and error message</p>\n",
+  "description" : "Using invalid and valid email address input to test validation and error message",
+  "descriptionHtml" : "<p>Using invalid and valid email address input to test validation and error message</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "Register Page Tests Epic"
-  }, {
     "name" : "feature",
     "value" : "Input Test"
   }, {
+    "name" : "epic",
+    "value" : "Register Page Tests Epic"
+  }, {
     "name" : "story",
-    "value" : "Test Mobile Number field in Register Page"
+    "value" : "Test Mail Address field in Register Page"
   }, {
     "name" : "host",
     "value" : "DESKTOP-CQ0TMOR"
@@ -44,7 +44,7 @@
     "value" : "tests.RegisterTests"
   }, {
     "name" : "testMethod",
-    "value" : "testMobile"
+    "value" : "testEmail"
   }, {
     "name" : "suite",
     "value" : "tests.RegisterTests"
@@ -54,14 +54,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3f6df90378911457.json",
+  "source" : "582755b55db31079.json",
   "parameterValues" : [ ]
 }

@@ -1,15 +1,15 @@
 {
-  "uid" : "738ef42728d71513",
-  "name" : "Verify Password Number feild in Register Page",
-  "fullName" : "tests.RegisterTests.testPassword",
-  "historyId" : "3719bfebb9414f49413f0180ead8e924",
+  "uid" : "bde88e30b7f1c12b",
+  "name" : "Verify Error message in Register Page",
+  "fullName" : "tests.RegisterTests.testErrorMessage",
+  "historyId" : "95ab5f0379af8c0fe2906c537077b514",
   "time" : {
-    "start" : 1573766589308,
-    "stop" : 1573766595657,
-    "duration" : 6349
+    "start" : 1573769086903,
+    "stop" : 1573769090772,
+    "duration" : 3869
   },
-  "description" : "Using invalid and valid password input to test validation and error message",
-  "descriptionHtml" : "<p>Using invalid and valid password input to test validation and error message</p>\n",
+  "description" : "No input to test all error messages in Register Page",
+  "descriptionHtml" : "<p>No input to test all error messages in Register Page</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -23,13 +23,13 @@
     "value" : "Input Test"
   }, {
     "name" : "story",
-    "value" : "Test Password field in Register Page"
+    "value" : "Test all error messages in Register Page"
   }, {
     "name" : "host",
     "value" : "DESKTOP-CQ0TMOR"
   }, {
     "name" : "thread",
-    "value" : "1008@DESKTOP-CQ0TMOR.main(1)"
+    "value" : "6556@DESKTOP-CQ0TMOR.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -44,7 +44,7 @@
     "value" : "tests.RegisterTests"
   }, {
     "name" : "testMethod",
-    "value" : "testPassword"
+    "value" : "testErrorMessage"
   }, {
     "name" : "suite",
     "value" : "tests.RegisterTests"
@@ -54,14 +54,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "738ef42728d71513.json",
+  "source" : "bde88e30b7f1c12b.json",
   "parameterValues" : [ ]
 }

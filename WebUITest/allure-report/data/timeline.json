@@ -4,23 +4,148 @@
   "children" : [ {
     "name" : "DESKTOP-CQ0TMOR",
     "children" : [ {
-      "name" : "1008@DESKTOP-CQ0TMOR.main(1)",
+      "name" : "13644@DESKTOP-CQ0TMOR.main(1)",
       "children" : [ {
-        "name" : "Verify Password Number feild in Register Page",
-        "uid" : "738ef42728d71513",
-        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
+        "name" : "Verify Email Address in Register Page",
+        "uid" : "2fd4ecda5820454a",
+        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
         "status" : "passed",
         "time" : {
-          "start" : 1573766589308,
-          "stop" : 1573766595657,
-          "duration" : 6349
+          "start" : 1573769565184,
+          "stop" : 1573769575260,
+          "duration" : 10076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Error message in Register Page",
+        "uid" : "5643ee6b3afd42c3",
+        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573769560565,
+          "stop" : 1573769564951,
+          "duration" : 4386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Password Number feild in Register Page",
+        "uid" : "a9632b913ced2329",
+        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573769597254,
+          "stop" : 1573769608312,
+          "duration" : 11058
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Verify Mobile Number field in Register Page",
-        "uid" : "3f6df90378911457",
+        "uid" : "e363a0baadbe5a5f",
+        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573769580005,
+          "stop" : 1573769597228,
+          "duration" : 17223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify happy flow in Register Page",
+        "uid" : "965135fa103b4684",
+        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573769575291,
+          "stop" : 1573769579981,
+          "duration" : 4690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b697faa292adda148b6fb5196605cf5"
+    }, {
+      "name" : "6556@DESKTOP-CQ0TMOR.main(1)",
+      "children" : [ {
+        "name" : "Verify Email Address in Register Page",
+        "uid" : "20e70fa0552e4221",
+        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573769090893,
+          "stop" : 1573769100507,
+          "duration" : 9614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify happy flow in Register Page",
+        "uid" : "654fc7cff10664e4",
+        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573769100527,
+          "stop" : 1573769105341,
+          "duration" : 4814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Error message in Register Page",
+        "uid" : "bde88e30b7f1c12b",
+        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573769086903,
+          "stop" : 1573769090772,
+          "duration" : 3869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Mobile Number field in Register Page",
+        "uid" : "d48058f3919c7aba",
+        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573769105357,
+          "stop" : 1573769120757,
+          "duration" : 15400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Password Number feild in Register Page",
+        "uid" : "67f1d1b13977178b",
+        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573769120774,
+          "stop" : 1573769127004,
+          "duration" : 6230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcfc98c340bce87f6e9fd99e85432aa8"
+    }, {
+      "name" : "1008@DESKTOP-CQ0TMOR.main(1)",
+      "children" : [ {
+        "name" : "Verify Mobile Number field in Register Page",
+        "uid" : "6c4a113d6c7ee4fc",
         "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
         "status" : "passed",
         "time" : {
@@ -32,21 +157,34 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Verify happy flow in Register Page",
-        "uid" : "c2eba4e7e524874a",
+        "name" : "Verify Error message in Register Page",
+        "uid" : "d9c55ca003cb8ba8",
         "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
         "status" : "passed",
         "time" : {
-          "start" : 1573766567727,
-          "stop" : 1573766572261,
-          "duration" : 4534
+          "start" : 1573766552967,
+          "stop" : 1573766557390,
+          "duration" : 4423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Password Number feild in Register Page",
+        "uid" : "b37a102ff9ada6f0",
+        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573766589308,
+          "stop" : 1573766595657,
+          "duration" : 6349
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Verify Email Address in Register Page",
-        "uid" : "4ee800a12536d587",
+        "uid" : "582755b55db31079",
         "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
         "status" : "passed",
         "time" : {
@@ -58,14 +196,14 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Verify Error message in Register Page",
-        "uid" : "e1ae998398fec0a1",
+        "name" : "Verify happy flow in Register Page",
+        "uid" : "3950948c3d989721",
         "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
         "status" : "passed",
         "time" : {
-          "start" : 1573766552967,
-          "stop" : 1573766557390,
-          "duration" : 4423
+          "start" : 1573766567727,
+          "stop" : 1573766572261,
+          "duration" : 4534
         },
         "flaky" : false,
         "newFailed" : false,
