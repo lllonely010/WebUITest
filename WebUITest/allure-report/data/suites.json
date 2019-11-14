@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.RegisterTests",
+    "children" : [ {
+      "name" : "Verify Error message in Register Page",
+      "uid" : "e1ae998398fec0a1",
+      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766552967,
+        "stop" : 1573766557390,
+        "duration" : 4423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Email Address in Register Page",
+      "uid" : "4ee800a12536d587",
+      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766557505,
+        "stop" : 1573766567703,
+        "duration" : 10198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify happy flow in Register Page",
+      "uid" : "c2eba4e7e524874a",
+      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766567727,
+        "stop" : 1573766572261,
+        "duration" : 4534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Mobile Number field in Register Page",
+      "uid" : "3f6df90378911457",
+      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766572277,
+        "stop" : 1573766589290,
+        "duration" : 17013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Password Number feild in Register Page",
+      "uid" : "738ef42728d71513",
+      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766589308,
+        "stop" : 1573766595657,
+        "duration" : 6349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a9def585168df28d5e38793a522d0f60"
+  } ]
+}

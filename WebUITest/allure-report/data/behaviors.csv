@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"Register Page Tests Epic","Input Test","User tried to register with all valid input","0","0","1","0","0"
+"Register Page Tests Epic","Input Test","Test Mobile Number field in Register Page","0","0","1","0","0"
+"Register Page Tests Epic","Input Test","Test Mail Address field in Register Page","0","0","1","0","0"
+"Register Page Tests Epic","Input Test","Test Password field in Register Page","0","0","1","0","0"
+"Register Page Tests Epic","Input Test","Test all error messages in Register Page","0","0","1","0","0"

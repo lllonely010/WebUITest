@@ -1,0 +1,67 @@
+{
+  "uid" : "738ef42728d71513",
+  "name" : "Verify Password Number feild in Register Page",
+  "fullName" : "tests.RegisterTests.testPassword",
+  "historyId" : "3719bfebb9414f49413f0180ead8e924",
+  "time" : {
+    "start" : 1573766589308,
+    "stop" : 1573766595657,
+    "duration" : 6349
+  },
+  "description" : "Using invalid and valid password input to test validation and error message",
+  "descriptionHtml" : "<p>Using invalid and valid password input to test validation and error message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Register Page Tests Epic"
+  }, {
+    "name" : "feature",
+    "value" : "Input Test"
+  }, {
+    "name" : "story",
+    "value" : "Test Password field in Register Page"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CQ0TMOR"
+  }, {
+    "name" : "thread",
+    "value" : "1008@DESKTOP-CQ0TMOR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testPassword"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "738ef42728d71513.json",
+  "parameterValues" : [ ]
+}

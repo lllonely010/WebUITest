@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-CQ0TMOR",
+    "children" : [ {
+      "name" : "1008@DESKTOP-CQ0TMOR.main(1)",
+      "children" : [ {
+        "name" : "Verify Password Number feild in Register Page",
+        "uid" : "738ef42728d71513",
+        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573766589308,
+          "stop" : 1573766595657,
+          "duration" : 6349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Mobile Number field in Register Page",
+        "uid" : "3f6df90378911457",
+        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573766572277,
+          "stop" : 1573766589290,
+          "duration" : 17013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify happy flow in Register Page",
+        "uid" : "c2eba4e7e524874a",
+        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573766567727,
+          "stop" : 1573766572261,
+          "duration" : 4534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Email Address in Register Page",
+        "uid" : "4ee800a12536d587",
+        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573766557505,
+          "stop" : 1573766567703,
+          "duration" : 10198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Error message in Register Page",
+        "uid" : "e1ae998398fec0a1",
+        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573766552967,
+          "stop" : 1573766557390,
+          "duration" : 4423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a60a7bf4ab7bad745b6c990897ef883"
+    } ],
+    "uid" : "5c7d4d6c57fbdb1d6fefae4dd2973f95"
+  } ]
+}

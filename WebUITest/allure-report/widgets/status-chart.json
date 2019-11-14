@@ -1,0 +1,51 @@
+[ {
+  "uid" : "c2eba4e7e524874a",
+  "name" : "Verify happy flow in Register Page",
+  "time" : {
+    "start" : 1573766567727,
+    "stop" : 1573766572261,
+    "duration" : 4534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f6df90378911457",
+  "name" : "Verify Mobile Number field in Register Page",
+  "time" : {
+    "start" : 1573766572277,
+    "stop" : 1573766589290,
+    "duration" : 17013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ee800a12536d587",
+  "name" : "Verify Email Address in Register Page",
+  "time" : {
+    "start" : 1573766557505,
+    "stop" : 1573766567703,
+    "duration" : 10198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "738ef42728d71513",
+  "name" : "Verify Password Number feild in Register Page",
+  "time" : {
+    "start" : 1573766589308,
+    "stop" : 1573766595657,
+    "duration" : 6349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ae998398fec0a1",
+  "name" : "Verify Error message in Register Page",
+  "time" : {
+    "start" : 1573766552967,
+    "stop" : 1573766557390,
+    "duration" : 4423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -2,14 +2,18 @@ package tests;
 
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
-
-import pages.RegisterPage;
-
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;;
+import org.junit.jupiter.api.Test;
+import pages.RegisterPage;
 
+@Epic("Register Page Tests Epic")
+@Feature("Input Test")
 @RunWith(JUnitPlatform.class)
 public class RegisterTests extends BaseTest {	
 	public RegisterPage registerPage;
@@ -21,7 +25,9 @@ public class RegisterTests extends BaseTest {
     	registerPage.waitPageLoad();
     }
 	
-	@DisplayName("Verify Mobile Number feild in Register Page")
+    @Story("Test Mobile Number field in Register Page")
+    @Description("Using invalid and valid mobile number input to test validation and error message")
+	@DisplayName("Verify Mobile Number field in Register Page")
     @Test
     public void testMobile () {
     	//verify invalid mobile number for fronted and backEnd
@@ -50,6 +56,8 @@ public class RegisterTests extends BaseTest {
 
     }
     
+    @Story("Test Mail Address field in Register Page")
+    @Description("Using invalid and valid email address input to test validation and error message")
 	@DisplayName("Verify Email Address in Register Page")
     @Test
     public void testEmail () {
@@ -71,6 +79,8 @@ public class RegisterTests extends BaseTest {
     	
     }
     
+    @Story("Test Password field in Register Page")
+    @Description("Using invalid and valid password input to test validation and error message")
 	@DisplayName("Verify Password Number feild in Register Page")
     @Test
     public void testPassword () {
@@ -89,6 +99,8 @@ public class RegisterTests extends BaseTest {
     	registerPage.verifyNoPassowrdError();
     }
     
+    @Story("Test all error messages in Register Page")
+    @Description("No input to test all error messages in Register Page")
 	@DisplayName("Verify Error message in Register Page")
     @Test
     public void testErrorMessage () {
@@ -101,6 +113,8 @@ public class RegisterTests extends BaseTest {
     	registerPage.verifyWarningNotification("There is an error in the form. Please check for details below.");
     }
 	
+    @Story("User tried to register with all valid input")
+    @Description("Using valid mobile number, mail password and check all required checkbox")
 	@DisplayName("Verify happy flow in Register Page")
     @Test
     public void testFlow () {

@@ -1,0 +1,67 @@
+{
+  "uid" : "3f6df90378911457",
+  "name" : "Verify Mobile Number field in Register Page",
+  "fullName" : "tests.RegisterTests.testMobile",
+  "historyId" : "8a96bc96ec0a6927baedd7ffb0e2d3fc",
+  "time" : {
+    "start" : 1573766572277,
+    "stop" : 1573766589290,
+    "duration" : 17013
+  },
+  "description" : "Using invalid and valid mobile number input to test validation and error message",
+  "descriptionHtml" : "<p>Using invalid and valid mobile number input to test validation and error message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Register Page Tests Epic"
+  }, {
+    "name" : "feature",
+    "value" : "Input Test"
+  }, {
+    "name" : "story",
+    "value" : "Test Mobile Number field in Register Page"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CQ0TMOR"
+  }, {
+    "name" : "thread",
+    "value" : "1008@DESKTOP-CQ0TMOR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMobile"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f6df90378911457.json",
+  "parameterValues" : [ ]
+}

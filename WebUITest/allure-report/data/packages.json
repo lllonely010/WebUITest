@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.RegisterTests",
+    "children" : [ {
+      "name" : "testErrorMessage",
+      "uid" : "e1ae998398fec0a1",
+      "parentUid" : "05c2e10cbca3c0d1285484fc9067c871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766552967,
+        "stop" : 1573766557390,
+        "duration" : 4423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testEmail",
+      "uid" : "4ee800a12536d587",
+      "parentUid" : "05c2e10cbca3c0d1285484fc9067c871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766557505,
+        "stop" : 1573766567703,
+        "duration" : 10198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testFlow",
+      "uid" : "c2eba4e7e524874a",
+      "parentUid" : "05c2e10cbca3c0d1285484fc9067c871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766567727,
+        "stop" : 1573766572261,
+        "duration" : 4534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testMobile",
+      "uid" : "3f6df90378911457",
+      "parentUid" : "05c2e10cbca3c0d1285484fc9067c871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766572277,
+        "stop" : 1573766589290,
+        "duration" : 17013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testPassword",
+      "uid" : "738ef42728d71513",
+      "parentUid" : "05c2e10cbca3c0d1285484fc9067c871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573766589308,
+        "stop" : 1573766595657,
+        "duration" : 6349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.RegisterTests"
+  } ]
+}

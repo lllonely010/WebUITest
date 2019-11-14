@@ -1,0 +1,98 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Register Page Tests Epic",
+    "children" : [ {
+      "name" : "Input Test",
+      "children" : [ {
+        "name" : "Test all error messages in Register Page",
+        "children" : [ {
+          "name" : "Verify Error message in Register Page",
+          "uid" : "e1ae998398fec0a1",
+          "parentUid" : "4999c59ea1eb1ca9939fe8d39421a2a1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1573766552967,
+            "stop" : 1573766557390,
+            "duration" : 4423
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4999c59ea1eb1ca9939fe8d39421a2a1"
+      }, {
+        "name" : "Test Mail Address field in Register Page",
+        "children" : [ {
+          "name" : "Verify Email Address in Register Page",
+          "uid" : "4ee800a12536d587",
+          "parentUid" : "5d919dce43d52acbcc2c41a3c381824d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1573766557505,
+            "stop" : 1573766567703,
+            "duration" : 10198
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5d919dce43d52acbcc2c41a3c381824d"
+      }, {
+        "name" : "User tried to register with all valid input",
+        "children" : [ {
+          "name" : "Verify happy flow in Register Page",
+          "uid" : "c2eba4e7e524874a",
+          "parentUid" : "16f2842f7fd987b542f3e6896789486b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1573766567727,
+            "stop" : 1573766572261,
+            "duration" : 4534
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "16f2842f7fd987b542f3e6896789486b"
+      }, {
+        "name" : "Test Mobile Number field in Register Page",
+        "children" : [ {
+          "name" : "Verify Mobile Number field in Register Page",
+          "uid" : "3f6df90378911457",
+          "parentUid" : "1d72ae067c08113f4e60b5e498091b7b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1573766572277,
+            "stop" : 1573766589290,
+            "duration" : 17013
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1d72ae067c08113f4e60b5e498091b7b"
+      }, {
+        "name" : "Test Password field in Register Page",
+        "children" : [ {
+          "name" : "Verify Password Number feild in Register Page",
+          "uid" : "738ef42728d71513",
+          "parentUid" : "8ad3fbfe3b390221763c6ba9d24bd4d5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1573766589308,
+            "stop" : 1573766595657,
+            "duration" : 6349
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8ad3fbfe3b390221763c6ba9d24bd4d5"
+      } ],
+      "uid" : "e26e2155fcc4406b77ba53386d3b832d"
+    } ],
+    "uid" : "67de488205d01bb5cddd0f8f3f8f0f7e"
+  } ]
+}
