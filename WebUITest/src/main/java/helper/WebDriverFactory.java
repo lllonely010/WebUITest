@@ -1,32 +1,43 @@
 package helper;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.security.Security;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class WebDriverFactory {
+	
 	public static final String WEBDRIVER = PropertyManager.getInstance().getBroswer();
+	private static final Logger log = LogManager.getLogger(WebDriverFactory.class);
 	
     public static WebDriver createWebDriver() {
     	
        	if(WEBDRIVER.equals("firefox")) 
        	{
-       		System.setProperty("webdriver.gecko.driver", "lib\\geckodriver.exe");
+       		log.info("Setting up a firefox webdriver");
+       		WebDriverManager.firefoxdriver().setup();
             return new FirefoxDriver();
        	}else if(WEBDRIVER.equals("chrome")) 
        	{
-       		System.setProperty("webdriver.chrome.driver", "lib\\chromedriver.exe");
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--start-maximized");
-            options.addArguments("disable-infobars");
-            options.addArguments("--disable-extensions");
-            options.addArguments("--enable-automation");
-            return new ChromeDriver(options);
+       		log.info("Setting up a chrome webdriver");
+            WebDriverManager.chromedriver().setup();
+            return new ChromeDriver();
+            
+       	}else if(WEBDRIVER.equals("edge")) 
+       	{       		
+       		log.info("Setting up a edge webdriver");
+            WebDriverManager.edgedriver().setup();
+            return new EdgeDriver();
+       	}else {
+       		log.info("No setting for webdriver or driver not supported");
+       		return null;
        	}
-		return null;
     }
     
     public static void ignoreSecureOnChrome(WebDriver driver)

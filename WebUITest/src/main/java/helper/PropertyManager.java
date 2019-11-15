@@ -3,6 +3,8 @@ package helper;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class PropertyManager {
 	
@@ -15,6 +17,11 @@ public class PropertyManager {
     private String testpaymentcard;
     private String browser;   
     
+    static {
+		System.setProperty("log4j.configurationFile",logFilePath);
+    }
+    
+    private final Logger log = LogManager.getLogger(PropertyManager.class);
     
     public static PropertyManager getInstance () {
         if (pm == null) {
@@ -26,21 +33,19 @@ public class PropertyManager {
     
     private void loadData() {
         Properties prop = new Properties();
- 
-        //Read configuration.properties file
+        log.info("Read configuration.properties file");
+        
         try {
             prop.load(new FileInputStream(propertyFilePath));
         } catch (IOException e) {
-            System.out.println("Configuration properties file cannot be found");
+        	log.error("Configuration properties file cannot be found");
         }
  
-        //Get properties from configuration.properties
         server = prop.getProperty("server");
         username = prop.getProperty("Username");
         password = prop.getProperty("Password");
         testpaymentcard = prop.getProperty("Testpaymentcard");
-        browser = prop.getProperty("browser");
-    	
+        browser = prop.getProperty("browser");   	
     }
     
     public String getServer () {
