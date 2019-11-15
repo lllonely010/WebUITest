@@ -37,11 +37,13 @@ public class RegisterPage extends BasePage{
 	
 	@Step("Navigate To Register Page")
 	public void navigateToRegisterPage() {
+		LOGGER.info("Navigate To Register Page");
 		driver.navigate().to(BasePage.url+"/register");
 	}
 	
 	@Step("Type {input} for mobile number.")
 	public void inputMobile(String input) {
+		LOGGER.info("Type [{}] for Mobile number", input);
 		waitVisibility(mobilenumber);
 		clearText(mobilenumber);
 		inputText(mobilenumber, input);
@@ -50,6 +52,7 @@ public class RegisterPage extends BasePage{
 	
 	@Step("Type {input} for email address.")
 	public void inputEmail(String input) {
+		LOGGER.info("Type [{}] for Email Address", input);
 		waitVisibility(mailaddress);
 		clearText(mailaddress);
 		inputText(mailaddress, input);
@@ -58,6 +61,7 @@ public class RegisterPage extends BasePage{
 	
 	@Step("Type {input} for password.")
 	public void inputPassword(String input) {
+		LOGGER.info("Type [{}] for password", input);
 		waitVisibility(password);
 		clearText(password);
 		inputText(password, input);
@@ -66,6 +70,7 @@ public class RegisterPage extends BasePage{
 	
 	@Step("Verify {expectedText} for mobile message box.")
 	public void verifyMobileMsbox(String expectedText) {
+		LOGGER.info("Verify [{}] for Mobile message box", expectedText);
 		waitScriptDone();
 		waitLoadInnerText(climsgbox,expectedText);
 		assertEquals(expectedText, readInnerText(climsgbox));		
@@ -73,6 +78,7 @@ public class RegisterPage extends BasePage{
 	
 	@Step("Verify {expectedText} for mail message box.")
 	public void verifyMailMsbox(String expectedText) {
+		LOGGER.info("Verify [{}] for Mail message box", expectedText);
 		waitScriptDone();
 		waitLoadInnerText(emailmsgbox,expectedText);
 		assertEquals(expectedText, readInnerText(emailmsgbox));		
@@ -80,6 +86,7 @@ public class RegisterPage extends BasePage{
 	
 	@Step("Verify {expectedText} for warning notification.")
 	public void verifyWarningNotification(String expectedText) {
+		LOGGER.info("Verify [{}] for warning notification", expectedText);
 		waitLoadInnerText(warningnotification,expectedText);
 		assertEquals(expectedText, readInnerText(warningnotification));			
 	}
@@ -89,10 +96,12 @@ public class RegisterPage extends BasePage{
 		switch(expectedText) {
 		
 		case "Please complete the Recaptcha.":
+			LOGGER.info("Verify [{}] for recaptcha error", expectedText);
 			waitLoadInnerText(recaptchaerror,expectedText);
 			assertEquals(expectedText, readInnerText(recaptchaerror));	
 			break;
 		case "You must agree to the Terms & Conditions":
+			LOGGER.info("Verify [{}] for Terms & Conditions", expectedText);
 			waitLoadInnerText(termserror,expectedText);
 			assertEquals(expectedText, readInnerText(termserror));	
 			break;	
@@ -103,61 +112,68 @@ public class RegisterPage extends BasePage{
 	
 	@Step("Verify {expectedText} for mobile error.")
 	public void verifyMobileError(String expectedText) {
+		LOGGER.info("Verify [{}] for Mobile Error", expectedText);
 		waitLoadInnerText(mobileerror,expectedText);
 		assertEquals(expectedText, readInnerText(mobileerror));			
 	}
 	
 	@Step("Verify {expectedText} for mail error.")
 	public void verifyMailError(String expectedText) {
+		LOGGER.info("Verify [{}] for Mail Error", expectedText);
 		waitLoadInnerText(emailerror,expectedText);
 		assertEquals(expectedText, readInnerText(emailerror));			
 	}
 	
 	@Step("Verify {expectedText} for password error.")
 	public void verifyPassowrdError(String expectedText) {
+		LOGGER.info("Verify [{}] for password error", expectedText);
 		waitLoadInnerText(passworderror,expectedText);
 		assertEquals(expectedText, readInnerText(passworderror));			
 	}
 	
 	@Step("Verify no mail error.")
 	public void verifyNoEmailError() {
-		
+		LOGGER.info("Verify no Email Error");
 		assertThrows(NoSuchElementException.class,()->  driver.findElement(emailerror));			
 	}
 	
 	@Step("Verify no mobile error.")
 	public void verifyNoMobileError() {
-		
+		LOGGER.info("Verify no Mobile Error");
 		assertThrows(NoSuchElementException.class,()->  driver.findElement(mobileerror));			
 	}
 	
 	@Step("Verify no password error.")
 	public void verifyNoPassowrdError() {
-		
+		LOGGER.info("Verify no password Error");
 		assertThrows(NoSuchElementException.class,()->  driver.findElement(passworderror));			
 	}
 
 	@Step("Check recaptcha anchor.")
-	public void clickRecaptchaanchor() {		
+	public void clickRecaptchaanchor() {	
+		LOGGER.info("Check recaptcha anchor");
 		driver.switchTo().frame(driver.findElement(iframe));
 		waitVisibility(recaptchaanchor);
 		driver.findElement(recaptchaanchor).click(); 		
 	}
 	
-	@Step("Check terms.")
+	@Step("Click checkbox Terms & Conditions.")
 	public void clickTerms() {
+		LOGGER.info("Click checkbox Terms & Conditions");
 		waitVisibility(terms);
 		driver.findElement(terms).click();
 	}
 	
-	@Step("Click next.")
+	@Step("Click next button")
 	public void clickNext() {
+		LOGGER.info("Click next button");
 		waitVisibility(next);
 		driver.findElement(next).click();
 	}
 	
 	@Step("Click cancel.")
 	public void clickCancel() {
+		LOGGER.info("Click cancel button");
 		waitVisibility(cancel);
 		driver.findElement(cancel).click();
 	}

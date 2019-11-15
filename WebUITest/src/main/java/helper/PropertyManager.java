@@ -4,16 +4,18 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.logging.log4j.core.config.xml.XmlConfiguration;
+
 public class PropertyManager {
 	
 	private static PropertyManager pm;
     private static String propertyFilePath = System.getProperty("user.dir")+"\\resources\\configuration.properties";
+    public static String logFilePath = System.getProperty("user.dir")+"\\resources\\log4j2.xml";
     private String server;
     private String username;
     private String password;
     private String testpaymentcard;
-    private String browser;
-    
+    private String browser;   
     
     
     public static PropertyManager getInstance () {
@@ -40,6 +42,7 @@ public class PropertyManager {
         password = prop.getProperty("Password");
         testpaymentcard = prop.getProperty("Testpaymentcard");
         browser = prop.getProperty("browser");
+    	
     }
     
     public String getServer () {

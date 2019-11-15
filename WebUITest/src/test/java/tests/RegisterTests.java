@@ -20,6 +20,7 @@ public class RegisterTests extends BaseTest {
 	
     @BeforeEach
     public void start () {
+        LOGGER.info("Start to run test cases for Register Page");
     	registerPage = new RegisterPage(driver);
     	registerPage.navigateToRegisterPage();
     	registerPage.waitPageLoad();
@@ -131,6 +132,6 @@ public class RegisterTests extends BaseTest {
 	 
     @AfterEach
     public void end () {
-
+    	LOGGER.info("Finish tests cases on Register Page");
     }
 }
