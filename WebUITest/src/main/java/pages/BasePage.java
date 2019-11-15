@@ -24,7 +24,6 @@ public class BasePage{
 		PageFactory.initElements(driver, this);
 	}
 	
-	
     public void waitVisibility(By elementBy) {
     	new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(elementBy));
     }
@@ -56,9 +55,9 @@ public class BasePage{
         driver.findElement(elementBy).click();
     }
  
-    public String readInnerText (By elementBy) {
+    public String readText (By elementBy) {
         waitVisibility(elementBy);
-        return driver.findElement(elementBy).getAttribute("innerText");
+        return driver.findElement(elementBy).getText();
     }
     
     public void scrollToView(By elementBy) {

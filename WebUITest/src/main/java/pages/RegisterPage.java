@@ -76,7 +76,7 @@ public class RegisterPage extends BasePage{
 		LOGGER.info("Verify [{}] for Mobile message box", expectedText);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		waitLoadInnerText(climsgbox,expectedText);
-		assertEquals(expectedText, readInnerText(climsgbox));		
+		assertEquals(expectedText, readText(climsgbox));		
 	}
 	
 	@Step("Verify {expectedText} for mail message box.")
@@ -84,14 +84,14 @@ public class RegisterPage extends BasePage{
 		LOGGER.info("Verify [{}] for Mail message box", expectedText);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		waitLoadInnerText(emailmsgbox,expectedText);
-		assertEquals(expectedText, readInnerText(emailmsgbox));		
+		assertEquals(expectedText, readText(emailmsgbox));		
 	}
 	
 	@Step("Verify {expectedText} for warning notification.")
 	public void verifyWarningNotification(String expectedText) {
 		LOGGER.info("Verify [{}] for warning notification", expectedText);
 		waitLoadInnerText(warningnotification,expectedText);
-		assertEquals(expectedText, readInnerText(warningnotification));			
+		assertEquals(expectedText, readText(warningnotification));			
 	}
 	
 	@Step("Verify {expectedText} for span message.")
@@ -101,12 +101,12 @@ public class RegisterPage extends BasePage{
 		case "Please complete the Recaptcha.":
 			LOGGER.info("Verify [{}] for recaptcha error", expectedText);
 			waitLoadInnerText(recaptchaerror,expectedText);
-			assertEquals(expectedText, readInnerText(recaptchaerror));	
+			assertEquals(expectedText, readText(recaptchaerror));	
 			break;
 		case "You must agree to the Terms & Conditions":
 			LOGGER.info("Verify [{}] for Terms & Conditions", expectedText);
 			waitLoadInnerText(termserror,expectedText);
-			assertEquals(expectedText, readInnerText(termserror));	
+			assertEquals(expectedText, readText(termserror));	
 			break;	
 		default :
 			break;
@@ -117,21 +117,21 @@ public class RegisterPage extends BasePage{
 	public void verifyMobileError(String expectedText) {
 		LOGGER.info("Verify [{}] for Mobile Error", expectedText);
 		waitLoadInnerText(mobileerror,expectedText);
-		assertEquals(expectedText, readInnerText(mobileerror));			
+		assertEquals(expectedText, readText(mobileerror));			
 	}
 	
 	@Step("Verify {expectedText} for mail error.")
 	public void verifyMailError(String expectedText) {
 		LOGGER.info("Verify [{}] for Mail Error", expectedText);
 		waitLoadInnerText(emailerror,expectedText);
-		assertEquals(expectedText, readInnerText(emailerror));			
+		assertEquals(expectedText, readText(emailerror));			
 	}
 	
 	@Step("Verify {expectedText} for password error.")
 	public void verifyPassowrdError(String expectedText) {
 		LOGGER.info("Verify [{}] for password error", expectedText);
 		waitLoadInnerText(passworderror,expectedText);
-		assertEquals(expectedText, readInnerText(passworderror));			
+		assertEquals(expectedText, readText(passworderror));			
 	}
 	
 	@Step("Verify no mail error.")

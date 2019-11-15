@@ -1,5 +1,7 @@
 package tests;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import helper.PropertyManager;
@@ -8,8 +10,12 @@ import pages.BasePage;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.extension.TestInstances;
+import org.junit.jupiter.engine.execution.TestInstancesProvider;
+import org.junit.platform.engine.TestExecutionResult;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -29,12 +35,15 @@ public class BaseTest {
     	
         LOGGER.info("Start to set up for all tests");
 		driver = WebDriverFactory.createWebDriver();
+		WebDriverFactory.ignoreSecureOnChrome(driver);
 		basepage = new BasePage(driver);
 		basepage.loginToRG();    	
     }
     
     @AfterAll
     public static void teardown () {
+    	
+    	LOGGER.info("close the browser");
         driver.quit();
         LOGGER.info("All tests finished");
     }

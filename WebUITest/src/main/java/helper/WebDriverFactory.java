@@ -3,6 +3,8 @@ package helper;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.devtools.DevTools;
+import org.openqa.selenium.devtools.security.Security;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class WebDriverFactory {
@@ -25,5 +27,13 @@ public class WebDriverFactory {
             return new ChromeDriver(options);
        	}
 		return null;
+    }
+    
+    public static void ignoreSecureOnChrome(WebDriver driver)
+    {
+    	DevTools devtool = ((ChromeDriver)driver).getDevTools();
+    	devtool.createSession();
+    	devtool.send(Security.enable());
+    	devtool.send(Security.setIgnoreCertificateErrors(true));
     }
 }
