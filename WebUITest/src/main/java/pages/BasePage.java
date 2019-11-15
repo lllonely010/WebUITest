@@ -15,12 +15,9 @@ import helper.PropertyManager;
 public class BasePage{
 	
 
-	public WebDriver driver;
-    public static String url = PropertyManager.getInstance().getURL();
-    static {
-  		System.setProperty("log4j.configurationFile",PropertyManager.logFilePath);
-      }
-    public static Logger LOGGER = LogManager.getLogger(BasePage.class);
+	protected WebDriver driver = null;
+	protected static final String url = PropertyManager.getInstance().getURL();
+	protected final Logger LOGGER = LogManager.getLogger(BasePage.class);
     
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
