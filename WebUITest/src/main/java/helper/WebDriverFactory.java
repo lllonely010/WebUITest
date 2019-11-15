@@ -21,6 +21,7 @@ public class WebDriverFactory {
             options.addArguments("--start-maximized");
             options.addArguments("disable-infobars");
             options.addArguments("--disable-extensions");
+            options.addArguments("--enable-automation");
             return new ChromeDriver(options);
        	}
 		return null;

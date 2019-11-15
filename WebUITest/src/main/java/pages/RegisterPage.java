@@ -6,6 +6,9 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import java.util.concurrent.TimeUnit;
+
 import io.qameta.allure.Step;
 
 
@@ -71,7 +74,7 @@ public class RegisterPage extends BasePage{
 	@Step("Verify {expectedText} for mobile message box.")
 	public void verifyMobileMsbox(String expectedText) {
 		LOGGER.info("Verify [{}] for Mobile message box", expectedText);
-		waitScriptDone();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		waitLoadInnerText(climsgbox,expectedText);
 		assertEquals(expectedText, readInnerText(climsgbox));		
 	}
@@ -79,7 +82,7 @@ public class RegisterPage extends BasePage{
 	@Step("Verify {expectedText} for mail message box.")
 	public void verifyMailMsbox(String expectedText) {
 		LOGGER.info("Verify [{}] for Mail message box", expectedText);
-		waitScriptDone();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		waitLoadInnerText(emailmsgbox,expectedText);
 		assertEquals(expectedText, readInnerText(emailmsgbox));		
 	}
@@ -168,7 +171,9 @@ public class RegisterPage extends BasePage{
 	public void clickNext() {
 		LOGGER.info("Click next button");
 		waitVisibility(next);
+		scrollToView(next);
 		driver.findElement(next).click();
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 	}
 	
 	@Step("Click cancel.")
