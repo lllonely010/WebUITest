@@ -10,28 +10,25 @@ import org.apache.logging.log4j.Logger;
 import helper.WebDriverFactory;
 import pages.BasePage;
 
-
 @RunWith(JUnitPlatform.class)
 public class BaseTest {
-	
-    public static WebDriver driver = WebDriverFactory.createWebDriver();
-    public static BasePage basepage = new BasePage(driver);;    	
-    public static Logger LOGGER = LogManager.getLogger(BaseTest.class);
-   
-    @BeforeAll
-    public static void setupAll()
-    {    	
-        LOGGER.info("Start to set up for all tests");
-        driver.manage().window().maximize();
-		basepage.loginToRG();    	
-    }
-    
-    @AfterAll
-    public static void teardownAll () {
-    	
-    	LOGGER.info("close the browser");
-        driver.quit();
-        LOGGER.info("All tests finished");
-    }
+
+	public static WebDriver driver = WebDriverFactory.createWebDriver();
+	public static BasePage basepage = new BasePage(driver);;
+	public static Logger LOGGER = LogManager.getLogger(BaseTest.class);
+
+	@BeforeAll
+	public static void setupAll() {
+		LOGGER.info("Start to set up for all tests");
+		driver.manage().window().maximize();
+		basepage.loginToRG();
+	}
+
+	@AfterAll
+	public static void teardownAll() {
+		LOGGER.info("close the browser");
+		driver.quit();
+		LOGGER.info("All tests finished");
+	}
 
 }
