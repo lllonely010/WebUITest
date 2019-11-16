@@ -1,20 +1,22 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Wait;
+
 import io.qameta.allure.Step;
 
 public class RegisterPage extends BasePage {
 
-	public RegisterPage(WebDriver driver) {
-		super(driver);
+	public RegisterPage(WebDriver driver, Wait<WebDriver> wait) {
+		super(driver, wait);
 	}
 
 	By pagetitle = By.cssSelector("h1:nth-child(3)");
@@ -40,7 +42,7 @@ public class RegisterPage extends BasePage {
 	@Step("Navigate To Register Page")
 	public void navigateToRegisterPage() {
 		LOGGER.info("Navigate To Register Page");
-		driver.navigate().to(BasePage.url + "/register");
+		driver.navigate().to(BasePage.URL + "/register");
 	}
 
 	@Step("Type {input} for mobile number.")

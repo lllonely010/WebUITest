@@ -1,0 +1,186 @@
+{
+  "uid" : "e311f5bd87d1bd6d",
+  "name" : "Test Mobile number using the used input",
+  "fullName" : "tests.RegisterTests$testMobileFeild.testMobileWithInusedNumber",
+  "historyId" : "c495c0a3da0d9a4239be2b4e4387e2dc",
+  "time" : {
+    "start" : 1573927170823,
+    "stop" : 1573927174758,
+    "duration" : 3935
+  },
+  "description" : "Using the used input mobile number, feild check failed and error message after click next button",
+  "descriptionHtml" : "<p>Using the used input mobile number, feild check failed and error message after click next button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Using the used input mobile number, feild check failed and error message after click next button",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to Register Page",
+      "time" : {
+        "start" : 1573927170825,
+        "stop" : 1573927171841,
+        "duration" : 1016
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigate To Register Page",
+        "time" : {
+          "start" : 1573927170825,
+          "stop" : 1573927171838,
+          "duration" : 1013
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Type 12345678 for mobile number.",
+      "time" : {
+        "start" : 1573927171841,
+        "stop" : 1573927172128,
+        "duration" : 287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "12345678"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Number is already in use. If this is your number, please login, retrieve your PIN or reset your password . for mobile message box.",
+      "time" : {
+        "start" : 1573927172130,
+        "stop" : 1573927173266,
+        "duration" : 1136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Number is already in use. If this is your number, please login, retrieve your PIN or reset your password ."
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click next button",
+      "time" : {
+        "start" : 1573927173267,
+        "stop" : 1573927174636,
+        "duration" : 1369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Telephone number must be longer than 9 characters for mobile error.",
+      "time" : {
+        "start" : 1573927174637,
+        "stop" : 1573927174757,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Telephone number must be longer than 9 characters"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Finish test case",
+      "time" : {
+        "start" : 1573927174758,
+        "stop" : 1573927174758,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test Mobile number using the used input"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CQ0TMOR"
+  }, {
+    "name" : "thread",
+    "value" : "12992@DESKTOP-CQ0TMOR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests$testMobileFeild"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests$testMobileFeild"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMobileWithInusedNumber"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests.testMobileFeild"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e311f5bd87d1bd6d.json",
+  "parameterValues" : [ ]
+}

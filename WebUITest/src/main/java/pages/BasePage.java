@@ -1,6 +1,7 @@
 package pages;
 
 import java.util.concurrent.TimeUnit;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -9,26 +10,29 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.Wait;
+
 import helper.PropertyManager;
 
 public class BasePage {
 
-	protected WebDriver driver = null;
-	protected static final String url = PropertyManager.getInstance().getURL();
+	protected WebDriver driver;
+	protected Wait<WebDriver> wait;
+	protected static final String URL = PropertyManager.getInstance().getURL();
 	protected final Logger LOGGER = LogManager.getLogger(BasePage.class);
 
-	public BasePage(WebDriver driver) {
+	public BasePage(WebDriver driver, Wait<WebDriver> wait) {
 		this.driver = driver;
+		this.wait = wait;
 		PageFactory.initElements(driver, this);
 	}
 
 	public void waitVisibility(By elementBy) {
-		new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(elementBy));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(elementBy));
 	}
 
 	public void waitLoadInnerText(By elementBy, String expectedText) {
-		new WebDriverWait(driver, 10).until(ExpectedConditions.attributeContains(elementBy, "innerText", expectedText));
+		wait.until(ExpectedConditions.attributeContains(elementBy, "innerText", expectedText));
 	}
 
 	public void waitPageLoad() {
@@ -66,7 +70,7 @@ public class BasePage {
 	}
 
 	public void loginToRG() {
-		LOGGER.info("Start to login in [{}]", url);
-		driver.navigate().to(url);
+		LOGGER.info("Start to login in [{}]", URL);
+		driver.navigate().to(URL);
 	}
 }

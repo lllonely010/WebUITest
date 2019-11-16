@@ -1,36 +1,36 @@
 {
-  "uid" : "c51ebee4825b96ac",
-  "name" : "Test Mobile number with more than 13 characters",
-  "fullName" : "tests.RegisterTests.testMobileWithInvalidMore13Number",
-  "historyId" : "3551eafb85697edf7564aee720875731",
+  "uid" : "bf16c0eb8e8d0679",
+  "name" : "Test Mobile number with valid input",
+  "fullName" : "tests.RegisterTests$testMobileFeild.testMobileWithValidNumber",
+  "historyId" : "d9fd33dadb22368405ed376ff26bf894",
   "time" : {
-    "start" : 1573913263412,
-    "stop" : 1573913267581,
-    "duration" : 4169
+    "start" : 1573927160823,
+    "stop" : 1573927166760,
+    "duration" : 5937
   },
-  "description" : "Using more than 13 characters mobile number, feild check passed and error message displayed after click next button",
-  "descriptionHtml" : "<p>Using more than 13 characters mobile number, feild check passed and error message displayed after click next button</p>\n",
+  "description" : "Using valid mobile number, feild check passed and no error after click next button",
+  "descriptionHtml" : "<p>Using valid mobile number, feild check passed and no error after click next button</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Using more than 13 characters mobile number, feild check passed and error message displayed after click next button",
+    "description" : "Using valid mobile number, feild check passed and no error after click next button",
     "status" : "passed",
     "steps" : [ {
       "name" : "Go to Register Page",
       "time" : {
-        "start" : 1573913263413,
-        "stop" : 1573913264512,
-        "duration" : 1099
+        "start" : 1573927160825,
+        "stop" : 1573927161777,
+        "duration" : 952
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navigate To Register Page",
         "time" : {
-          "start" : 1573913263413,
-          "stop" : 1573913264506,
-          "duration" : 1093
+          "start" : 1573927160825,
+          "stop" : 1573927161774,
+          "duration" : 949
         },
         "status" : "passed",
         "steps" : [ ],
@@ -48,18 +48,18 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Type 12345678910112 for mobile number.",
+      "name" : "Type 6935689812 for mobile number.",
       "time" : {
-        "start" : 1573913264512,
-        "stop" : 1573913264823,
-        "duration" : 311
+        "start" : 1573927161777,
+        "stop" : 1573927162115,
+        "duration" : 338
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "input",
-        "value" : "12345678910112"
+        "value" : "6935689812"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -68,9 +68,9 @@
     }, {
       "name" : "Verify Number available to register for mobile message box.",
       "time" : {
-        "start" : 1573913264824,
-        "stop" : 1573913266027,
-        "duration" : 1203
+        "start" : 1573927162115,
+        "stop" : 1573927163298,
+        "duration" : 1183
       },
       "status" : "passed",
       "steps" : [ ],
@@ -86,9 +86,9 @@
     }, {
       "name" : "Click next button",
       "time" : {
-        "start" : 1573913266027,
-        "stop" : 1573913267454,
-        "duration" : 1427
+        "start" : 1573927163298,
+        "stop" : 1573927164685,
+        "duration" : 1387
       },
       "status" : "passed",
       "steps" : [ ],
@@ -99,28 +99,25 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Verify Telephone number must be 13 or less characters for mobile error.",
+      "name" : "Verify no mobile error.",
       "time" : {
-        "start" : 1573913267454,
-        "stop" : 1573913267581,
-        "duration" : 127
+        "start" : 1573927164685,
+        "stop" : 1573927166759,
+        "duration" : 2074
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "expectedText",
-        "value" : "Telephone number must be 13 or less characters"
-      } ],
+      "parameters" : [ ],
       "stepsCount" : 0,
-      "hasContent" : true,
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Finish test case",
       "time" : {
-        "start" : 1573913267581,
-        "stop" : 1573913267581,
+        "start" : 1573927166759,
+        "stop" : 1573927166759,
         "duration" : 0
       },
       "status" : "passed",
@@ -141,20 +138,14 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Page elements validation Tests"
-  }, {
-    "name" : "epic",
-    "value" : "Register Tests Epic"
-  }, {
     "name" : "story",
-    "value" : "Test Mobile number with more than 13 characters"
+    "value" : "Test Mobile number with valid input"
   }, {
     "name" : "host",
     "value" : "DESKTOP-CQ0TMOR"
   }, {
     "name" : "thread",
-    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
+    "value" : "12992@DESKTOP-CQ0TMOR.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -163,16 +154,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testMobileFeild"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testMobileFeild"
   }, {
     "name" : "testMethod",
-    "value" : "testMobileWithInvalidMore13Number"
+    "value" : "testMobileWithValidNumber"
   }, {
     "name" : "suite",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests.testMobileFeild"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -187,6 +178,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c51ebee4825b96ac.json",
+  "source" : "bf16c0eb8e8d0679.json",
   "parameterValues" : [ ]
 }

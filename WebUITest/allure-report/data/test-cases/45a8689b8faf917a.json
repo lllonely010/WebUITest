@@ -1,36 +1,36 @@
 {
-  "uid" : "baa1f37a3a254850",
-  "name" : "Test Mobile number with valid input",
-  "fullName" : "tests.RegisterTests.testMobileWithValidNumber",
-  "historyId" : "931c07e798d10b9c1ecce3705619bc3d",
+  "uid" : "45a8689b8faf917a",
+  "name" : "[5] wertgfdertyuj",
+  "fullName" : "tests.RegisterTests$testPasswordFeild.testInvalidPassword",
+  "historyId" : "a7a8309fd4f50e46bf07db2844e78215",
   "time" : {
-    "start" : 1573913229252,
-    "stop" : 1573913235569,
-    "duration" : 6317
+    "start" : 1573927129557,
+    "stop" : 1573927131308,
+    "duration" : 1751
   },
-  "description" : "Using valid mobile number, feild check passed and no error after click next button",
-  "descriptionHtml" : "<p>Using valid mobile number, feild check passed and no error after click next button</p>\n",
+  "description" : "Using invalid input to test validation and error message",
+  "descriptionHtml" : "<p>Using invalid input to test validation and error message</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Using valid mobile number, feild check passed and no error after click next button",
+    "description" : "Using invalid input to test validation and error message",
     "status" : "passed",
     "steps" : [ {
       "name" : "Go to Register Page",
       "time" : {
-        "start" : 1573913229254,
-        "stop" : 1573913230406,
-        "duration" : 1152
+        "start" : 1573927129558,
+        "stop" : 1573927130666,
+        "duration" : 1108
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navigate To Register Page",
         "time" : {
-          "start" : 1573913229254,
-          "stop" : 1573913230398,
-          "duration" : 1144
+          "start" : 1573927129558,
+          "stop" : 1573927130659,
+          "duration" : 1101
         },
         "status" : "passed",
         "steps" : [ ],
@@ -48,76 +48,46 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Type 6935689812 for mobile number.",
+      "name" : "Type wertgfdertyuj for password.",
       "time" : {
-        "start" : 1573913230406,
-        "stop" : 1573913230778,
-        "duration" : 372
+        "start" : 1573927130666,
+        "stop" : 1573927130970,
+        "duration" : 304
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "input",
-        "value" : "6935689812"
+        "value" : "wertgfdertyuj"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Verify Number available to register for mobile message box.",
+      "name" : "Verify The password does not meet the correct format. for password error.",
       "time" : {
-        "start" : 1573913230778,
-        "stop" : 1573913231993,
-        "duration" : 1215
+        "start" : 1573927130970,
+        "stop" : 1573927131307,
+        "duration" : 337
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "expectedText",
-        "value" : "Number available to register"
+        "value" : "The password does not meet the correct format."
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Click next button",
-      "time" : {
-        "start" : 1573913231993,
-        "stop" : 1573913233542,
-        "duration" : 1549
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Verify no mobile error.",
-      "time" : {
-        "start" : 1573913233543,
-        "stop" : 1573913235568,
-        "duration" : 2025
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
       "name" : "Finish test case",
       "time" : {
-        "start" : 1573913235569,
-        "stop" : 1573913235569,
+        "start" : 1573927131308,
+        "stop" : 1573927131308,
         "duration" : 0
       },
       "status" : "passed",
@@ -131,27 +101,21 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
+    "stepsCount" : 5,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "Register Tests Epic"
-  }, {
-    "name" : "feature",
-    "value" : "Page elements validation Tests"
-  }, {
     "name" : "story",
-    "value" : "Test Mobile number with valid input"
+    "value" : "Test Password field with invalid input"
   }, {
     "name" : "host",
     "value" : "DESKTOP-CQ0TMOR"
   }, {
     "name" : "thread",
-    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
+    "value" : "12992@DESKTOP-CQ0TMOR.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -160,16 +124,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testPasswordFeild"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testPasswordFeild"
   }, {
     "name" : "testMethod",
-    "value" : "testMobileWithValidNumber"
+    "value" : "testInvalidPassword"
   }, {
     "name" : "suite",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests.testPasswordFeild"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -184,6 +148,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "baa1f37a3a254850.json",
+  "source" : "45a8689b8faf917a.json",
   "parameterValues" : [ ]
 }

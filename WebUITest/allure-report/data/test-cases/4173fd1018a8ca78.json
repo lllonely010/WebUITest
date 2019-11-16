@@ -1,36 +1,36 @@
 {
-  "uid" : "9c2b4ba42973e047",
-  "name" : "Verify happy flow in Register Page",
-  "fullName" : "tests.RegisterTests.testFlow",
-  "historyId" : "402ed900999bd7a92788c6c1d3c8ef6a",
+  "uid" : "4173fd1018a8ca78",
+  "name" : "[1] 123456",
+  "fullName" : "tests.RegisterTests$testEmailFeild.testInvalidEmailAddress",
+  "historyId" : "498c9c0f018e37bc6dc29235d0352287",
   "time" : {
-    "start" : 1573913238589,
-    "stop" : 1573913243212,
-    "duration" : 4623
+    "start" : 1573927131323,
+    "stop" : 1573927135456,
+    "duration" : 4133
   },
-  "description" : "Using valid mobile number, mail password and check all required checkbox",
-  "descriptionHtml" : "<p>Using valid mobile number, mail password and check all required checkbox</p>\n",
+  "description" : "Using all numbers as email address input, feild check failed and error message dispayed after click next button",
+  "descriptionHtml" : "<p>Using all numbers as email address input, feild check failed and error message dispayed after click next button</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Using valid mobile number, mail password and check all required checkbox",
+    "description" : "Using all numbers as email address input, feild check failed and error message dispayed after click next button",
     "status" : "passed",
     "steps" : [ {
       "name" : "Go to Register Page",
       "time" : {
-        "start" : 1573913238590,
-        "stop" : 1573913239659,
-        "duration" : 1069
+        "start" : 1573927131324,
+        "stop" : 1573927132405,
+        "duration" : 1081
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navigate To Register Page",
         "time" : {
-          "start" : 1573913238590,
-          "stop" : 1573913239650,
-          "duration" : 1060
+          "start" : 1573927131325,
+          "stop" : 1573927132400,
+          "duration" : 1075
         },
         "status" : "passed",
         "steps" : [ ],
@@ -48,101 +48,47 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Type 69356898 for mobile number.",
+      "name" : "Type 123456 for email address.",
       "time" : {
-        "start" : 1573913239660,
-        "stop" : 1573913239991,
-        "duration" : 331
+        "start" : 1573927132406,
+        "stop" : 1573927132704,
+        "duration" : 298
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "input",
-        "value" : "69356898"
+        "value" : "123456"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Verify Number available to register for mobile message box.",
+      "name" : "Verify Email is invalid for mail message box.",
       "time" : {
-        "start" : 1573913239991,
-        "stop" : 1573913241169,
-        "duration" : 1178
+        "start" : 1573927132704,
+        "stop" : 1573927133854,
+        "duration" : 1150
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "expectedText",
-        "value" : "Number available to register"
+        "value" : "Email is invalid"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Type 123456890@gmail.com for email address.",
+      "name" : "Click next button",
       "time" : {
-        "start" : 1573913241169,
-        "stop" : 1573913241479,
-        "duration" : 310
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "input",
-        "value" : "123456890@gmail.com"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Verify Email available to register for mail message box.",
-      "time" : {
-        "start" : 1573913241480,
-        "stop" : 1573913242728,
-        "duration" : 1248
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "expectedText",
-        "value" : "Email available to register"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Type Qw11234668 for password.",
-      "time" : {
-        "start" : 1573913242728,
-        "stop" : 1573913242990,
-        "duration" : 262
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "input",
-        "value" : "Qw11234668"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Check recaptcha anchor.",
-      "time" : {
-        "start" : 1573913242991,
-        "stop" : 1573913243212,
-        "duration" : 221
+        "start" : 1573927133854,
+        "stop" : 1573927135319,
+        "duration" : 1465
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,10 +99,28 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
+      "name" : "Verify Email address is invalid for mail error.",
+      "time" : {
+        "start" : 1573927135319,
+        "stop" : 1573927135455,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Email address is invalid"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
       "name" : "Finish test case",
       "time" : {
-        "start" : 1573913243212,
-        "stop" : 1573913243212,
+        "start" : 1573927135456,
+        "stop" : 1573927135456,
         "duration" : 0
       },
       "status" : "passed",
@@ -170,27 +134,21 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 9,
+    "stepsCount" : 7,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "Register Tests Epic"
-  }, {
-    "name" : "feature",
-    "value" : "Page elements validation Tests"
-  }, {
     "name" : "story",
-    "value" : "User tried to register with all valid input"
+    "value" : "Test Mail Address field with {invalidmail} address"
   }, {
     "name" : "host",
     "value" : "DESKTOP-CQ0TMOR"
   }, {
     "name" : "thread",
-    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
+    "value" : "12992@DESKTOP-CQ0TMOR.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -199,16 +157,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testEmailFeild"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testEmailFeild"
   }, {
     "name" : "testMethod",
-    "value" : "testFlow"
+    "value" : "testInvalidEmailAddress"
   }, {
     "name" : "suite",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests.testEmailFeild"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -223,6 +181,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9c2b4ba42973e047.json",
+  "source" : "4173fd1018a8ca78.json",
   "parameterValues" : [ ]
 }

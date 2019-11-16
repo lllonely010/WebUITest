@@ -1,36 +1,36 @@
 {
-  "uid" : "8438ee72315039a6",
-  "name" : "Test Mail Address field with the used address",
-  "fullName" : "tests.RegisterTests.testInUsedEmail",
-  "historyId" : "899ac7b81ffe4fd4844ef11a9c7a92e1",
+  "uid" : "ac27c6c8524d81b4",
+  "name" : "[2] $%#&^%%$$",
+  "fullName" : "tests.RegisterTests$testEmailFeild.testInvalidEmailAddress",
+  "historyId" : "36eeea687c8043f9595c8b214c091676",
   "time" : {
-    "start" : 1573913271769,
-    "stop" : 1573913275946,
-    "duration" : 4177
+    "start" : 1573927135474,
+    "stop" : 1573927139713,
+    "duration" : 4239
   },
-  "description" : "Using the used address email address input, feild check failed and error message displayed after click next button",
-  "descriptionHtml" : "<p>Using the used address email address input, feild check failed and error message displayed after click next button</p>\n",
+  "description" : "Using all numbers as email address input, feild check failed and error message dispayed after click next button",
+  "descriptionHtml" : "<p>Using all numbers as email address input, feild check failed and error message dispayed after click next button</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Using the used address email address input, feild check failed and error message displayed after click next button",
+    "description" : "Using all numbers as email address input, feild check failed and error message dispayed after click next button",
     "status" : "passed",
     "steps" : [ {
       "name" : "Go to Register Page",
       "time" : {
-        "start" : 1573913271770,
-        "stop" : 1573913272745,
-        "duration" : 975
+        "start" : 1573927135476,
+        "stop" : 1573927136666,
+        "duration" : 1190
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navigate To Register Page",
         "time" : {
-          "start" : 1573913271770,
-          "stop" : 1573913272737,
-          "duration" : 967
+          "start" : 1573927135476,
+          "stop" : 1573927136660,
+          "duration" : 1184
         },
         "status" : "passed",
         "steps" : [ ],
@@ -48,36 +48,36 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Type 123456@gmail.com for email address.",
+      "name" : "Type $%#&^%%$$ for email address.",
       "time" : {
-        "start" : 1573913272746,
-        "stop" : 1573913273156,
-        "duration" : 410
+        "start" : 1573927136666,
+        "stop" : 1573927137101,
+        "duration" : 435
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "input",
-        "value" : "123456@gmail.com"
+        "value" : "$%#&^%%$$"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Verify Email is already in use for mail message box.",
+      "name" : "Verify Email is invalid for mail message box.",
       "time" : {
-        "start" : 1573913273157,
-        "stop" : 1573913274365,
-        "duration" : 1208
+        "start" : 1573927137101,
+        "stop" : 1573927138261,
+        "duration" : 1160
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "expectedText",
-        "value" : "Email is already in use"
+        "value" : "Email is invalid"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -86,9 +86,9 @@
     }, {
       "name" : "Click next button",
       "time" : {
-        "start" : 1573913274365,
-        "stop" : 1573913275814,
-        "duration" : 1449
+        "start" : 1573927138261,
+        "stop" : 1573927139609,
+        "duration" : 1348
       },
       "status" : "passed",
       "steps" : [ ],
@@ -99,18 +99,18 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Verify Email address already in use. Forgotten your Pin? for mail error.",
+      "name" : "Verify Email address is invalid for mail error.",
       "time" : {
-        "start" : 1573913275814,
-        "stop" : 1573913275945,
-        "duration" : 131
+        "start" : 1573927139610,
+        "stop" : 1573927139713,
+        "duration" : 103
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "expectedText",
-        "value" : "Email address already in use. Forgotten your Pin?"
+        "value" : "Email address is invalid"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -119,8 +119,8 @@
     }, {
       "name" : "Finish test case",
       "time" : {
-        "start" : 1573913275945,
-        "stop" : 1573913275945,
+        "start" : 1573927139713,
+        "stop" : 1573927139713,
         "duration" : 0
       },
       "status" : "passed",
@@ -141,20 +141,14 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Page elements validation Tests"
-  }, {
-    "name" : "epic",
-    "value" : "Register Tests Epic"
-  }, {
     "name" : "story",
-    "value" : "Test Mail Address field with the used address"
+    "value" : "Test Mail Address field with {invalidmail} address"
   }, {
     "name" : "host",
     "value" : "DESKTOP-CQ0TMOR"
   }, {
     "name" : "thread",
-    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
+    "value" : "12992@DESKTOP-CQ0TMOR.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -163,16 +157,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testEmailFeild"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testEmailFeild"
   }, {
     "name" : "testMethod",
-    "value" : "testInUsedEmail"
+    "value" : "testInvalidEmailAddress"
   }, {
     "name" : "suite",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests.testEmailFeild"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -187,6 +181,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8438ee72315039a6.json",
+  "source" : "ac27c6c8524d81b4.json",
   "parameterValues" : [ ]
 }

@@ -1,36 +1,36 @@
 {
-  "uid" : "a19db46d6ef3ad13",
-  "name" : "Test Mobile number with 2 characters",
-  "fullName" : "tests.RegisterTests.testMobileWithInvalidNumber",
-  "historyId" : "d6f6213452cf1cd1dc22753dac2e6bb2",
+  "uid" : "e83d9d0b3b92d405",
+  "name" : "Test Password field with valid input",
+  "fullName" : "tests.RegisterTests$testPasswordFeild.testValidPassword",
+  "historyId" : "ec04ea3f5157fd9d766d9aa6cca35e0c",
   "time" : {
-    "start" : 1573913275956,
-    "stop" : 1573913280118,
-    "duration" : 4162
+    "start" : 1573927115928,
+    "stop" : 1573927122564,
+    "duration" : 6636
   },
-  "description" : "Using 2 characters mobile number, feild check failed and error message after click next button",
-  "descriptionHtml" : "<p>Using 2 characters mobile number, feild check failed and error message after click next button</p>\n",
+  "description" : "Using valid password input, validation passed and no error message",
+  "descriptionHtml" : "<p>Using valid password input, validation passed and no error message</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Using 2 characters mobile number, feild check failed and error message after click next button",
+    "description" : "Using valid password input, validation passed and no error message",
     "status" : "passed",
     "steps" : [ {
       "name" : "Go to Register Page",
       "time" : {
-        "start" : 1573913275957,
-        "stop" : 1573913277061,
-        "duration" : 1104
+        "start" : 1573927115929,
+        "stop" : 1573927116880,
+        "duration" : 951
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navigate To Register Page",
         "time" : {
-          "start" : 1573913275957,
-          "stop" : 1573913277057,
-          "duration" : 1100
+          "start" : 1573927115929,
+          "stop" : 1573927116876,
+          "duration" : 947
         },
         "status" : "passed",
         "steps" : [ ],
@@ -48,47 +48,29 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Type 12 for mobile number.",
+      "name" : "Type Qw11234668 for password.",
       "time" : {
-        "start" : 1573913277062,
-        "stop" : 1573913277324,
-        "duration" : 262
+        "start" : 1573927116881,
+        "stop" : 1573927117218,
+        "duration" : 337
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "input",
-        "value" : "12"
+        "value" : "Qw11234668"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Verify Phone number is invalid for mobile message box.",
+      "name" : "Verify no password error.",
       "time" : {
-        "start" : 1573913277324,
-        "stop" : 1573913278522,
-        "duration" : 1198
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "expectedText",
-        "value" : "Phone number is invalid"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Click next button",
-      "time" : {
-        "start" : 1573913278522,
-        "stop" : 1573913279903,
-        "duration" : 1381
+        "start" : 1573927117218,
+        "stop" : 1573927119245,
+        "duration" : 2027
       },
       "status" : "passed",
       "steps" : [ ],
@@ -99,28 +81,40 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Verify Telephone number must be longer than 9 characters for mobile error.",
+      "name" : "Click next button",
       "time" : {
-        "start" : 1573913279903,
-        "stop" : 1573913280117,
-        "duration" : 214
+        "start" : 1573927119245,
+        "stop" : 1573927120514,
+        "duration" : 1269
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "expectedText",
-        "value" : "Telephone number must be longer than 9 characters"
-      } ],
+      "parameters" : [ ],
       "stepsCount" : 0,
-      "hasContent" : true,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify no password error.",
+      "time" : {
+        "start" : 1573927120514,
+        "stop" : 1573927122563,
+        "duration" : 2049
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
       "name" : "Finish test case",
       "time" : {
-        "start" : 1573913280118,
-        "stop" : 1573913280118,
+        "start" : 1573927122564,
+        "stop" : 1573927122564,
         "duration" : 0
       },
       "status" : "passed",
@@ -141,20 +135,14 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "Register Tests Epic"
-  }, {
-    "name" : "feature",
-    "value" : "Page elements validation Tests"
-  }, {
     "name" : "story",
-    "value" : "Test Mobile number with 2 characters"
+    "value" : "Test Password field with valid input"
   }, {
     "name" : "host",
     "value" : "DESKTOP-CQ0TMOR"
   }, {
     "name" : "thread",
-    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
+    "value" : "12992@DESKTOP-CQ0TMOR.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -163,16 +151,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testPasswordFeild"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testPasswordFeild"
   }, {
     "name" : "testMethod",
-    "value" : "testMobileWithInvalidNumber"
+    "value" : "testValidPassword"
   }, {
     "name" : "suite",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests.testPasswordFeild"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -187,6 +175,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a19db46d6ef3ad13.json",
+  "source" : "e83d9d0b3b92d405.json",
   "parameterValues" : [ ]
 }

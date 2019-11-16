@@ -1,15 +1,59 @@
 {
-  "total" : 1,
+  "total" : 5,
   "items" : [ {
-    "uid" : "a9def585168df28d5e38793a522d0f60",
-    "name" : "tests.RegisterTests",
+    "uid" : "8adaec255c7165520a97bc4d57408812",
+    "name" : "tests.RegisterTests.testPasswordFeild",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 12
+      "total" : 6
+    }
+  }, {
+    "uid" : "49965a0e3b4d9bcf39f91824a5c49b81",
+    "name" : "tests.RegisterTests.testMobileFeild",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "5a861211e4e0941c3ac1f28fdb28e6db",
+    "name" : "tests.RegisterTests.testEmailFeild",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "82f352a3a2896b3218b3d7bdb564e019",
+    "name" : "tests.RegisterTests.testFLow",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d64b2e5d1b4d4a6e5f57a3083b7c7a6f",
+    "name" : "tests.RegisterTests.testPageAction",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

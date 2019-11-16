@@ -2,164 +2,271 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "tests.RegisterTests",
+    "name" : "tests.RegisterTests.testFLow",
+    "children" : [ {
+      "name" : "Verify happy flow in Register Page",
+      "uid" : "2ec3ef3bb0f0b2ad",
+      "parentUid" : "82f352a3a2896b3218b3d7bdb564e019",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927106724,
+        "stop" : 1573927112402,
+        "duration" : 5678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "82f352a3a2896b3218b3d7bdb564e019"
+  }, {
+    "name" : "tests.RegisterTests.testPageAction",
+    "children" : [ {
+      "name" : "Test all requied err messages without any input",
+      "uid" : "de9a2d16b32da1d5",
+      "parentUid" : "d64b2e5d1b4d4a6e5f57a3083b7c7a6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927112699,
+        "stop" : 1573927115906,
+        "duration" : 3207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d64b2e5d1b4d4a6e5f57a3083b7c7a6f"
+  }, {
+    "name" : "tests.RegisterTests.testPasswordFeild",
     "children" : [ {
       "name" : "Test Password field with valid input",
-      "uid" : "19dd0b2fb53f1b3c",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "uid" : "e83d9d0b3b92d405",
+      "parentUid" : "8adaec255c7165520a97bc4d57408812",
       "status" : "passed",
       "time" : {
-        "start" : 1573913222913,
-        "stop" : 1573913229068,
-        "duration" : 6155
+        "start" : 1573927115928,
+        "stop" : 1573927122564,
+        "duration" : 6636
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Test Mobile number with valid input",
-      "uid" : "baa1f37a3a254850",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "name" : "[1] 1",
+      "uid" : "ea9e6cd360c96246",
+      "parentUid" : "8adaec255c7165520a97bc4d57408812",
       "status" : "passed",
       "time" : {
-        "start" : 1573913229252,
-        "stop" : 1573913235569,
-        "duration" : 6317
+        "start" : 1573927122641,
+        "stop" : 1573927124631,
+        "duration" : 1990
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Test all requied err messages without any input",
-      "uid" : "7f0dfd665f1d2832",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "name" : "[2] 1234567890123",
+      "uid" : "e6271eed04b8912",
+      "parentUid" : "8adaec255c7165520a97bc4d57408812",
       "status" : "passed",
       "time" : {
-        "start" : 1573913235589,
-        "stop" : 1573913238576,
-        "duration" : 2987
+        "start" : 1573927124647,
+        "stop" : 1573927126345,
+        "duration" : 1698
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Verify happy flow in Register Page",
-      "uid" : "9c2b4ba42973e047",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "name" : "[3] $%#",
+      "uid" : "c73601d758826141",
+      "parentUid" : "8adaec255c7165520a97bc4d57408812",
       "status" : "passed",
       "time" : {
-        "start" : 1573913238589,
-        "stop" : 1573913243212,
-        "duration" : 4623
+        "start" : 1573927126364,
+        "stop" : 1573927127940,
+        "duration" : 1576
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[4] u",
+      "uid" : "c56aca112afb6903",
+      "parentUid" : "8adaec255c7165520a97bc4d57408812",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927127952,
+        "stop" : 1573927129543,
+        "duration" : 1591
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[5] wertgfdertyuj",
+      "uid" : "45a8689b8faf917a",
+      "parentUid" : "8adaec255c7165520a97bc4d57408812",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927129557,
+        "stop" : 1573927131308,
+        "duration" : 1751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8adaec255c7165520a97bc4d57408812"
+  }, {
+    "name" : "tests.RegisterTests.testEmailFeild",
+    "children" : [ {
+      "name" : "[1] 123456",
+      "uid" : "4173fd1018a8ca78",
+      "parentUid" : "5a861211e4e0941c3ac1f28fdb28e6db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927131323,
+        "stop" : 1573927135456,
+        "duration" : 4133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] $%#&^%%$$",
+      "uid" : "ac27c6c8524d81b4",
+      "parentUid" : "5a861211e4e0941c3ac1f28fdb28e6db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927135474,
+        "stop" : 1573927139713,
+        "duration" : 4239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] uewtwergfrg@",
+      "uid" : "452e6691843a962d",
+      "parentUid" : "5a861211e4e0941c3ac1f28fdb28e6db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927139727,
+        "stop" : 1573927144184,
+        "duration" : 4457
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Test Mail Address field in valid address",
-      "uid" : "83cae5155beb1fa9",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "uid" : "e77554d40da372f2",
+      "parentUid" : "5a861211e4e0941c3ac1f28fdb28e6db",
       "status" : "passed",
       "time" : {
-        "start" : 1573913243237,
-        "stop" : 1573913255832,
-        "duration" : 12595
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Test Mobile number using the used input",
-      "uid" : "916798f4e2aaec1",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573913255845,
-        "stop" : 1573913260061,
-        "duration" : 4216
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Test Password field with invalid input",
-      "uid" : "e08d338b35c8e9c",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573913260080,
-        "stop" : 1573913263401,
-        "duration" : 3321
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Test Mobile number with more than 13 characters",
-      "uid" : "c51ebee4825b96ac",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573913263412,
-        "stop" : 1573913267581,
-        "duration" : 4169
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Test Mobile number 8 characters",
-      "uid" : "f143083722fc2378",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573913267601,
-        "stop" : 1573913271744,
-        "duration" : 4143
+        "start" : 1573927144197,
+        "stop" : 1573927156649,
+        "duration" : 12452
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Test Mail Address field with the used address",
-      "uid" : "8438ee72315039a6",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
+      "uid" : "c55fe8db7b23f87b",
+      "parentUid" : "5a861211e4e0941c3ac1f28fdb28e6db",
       "status" : "passed",
       "time" : {
-        "start" : 1573913271769,
-        "stop" : 1573913275946,
-        "duration" : 4177
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Test Mobile number with 2 characters",
-      "uid" : "a19db46d6ef3ad13",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573913275956,
-        "stop" : 1573913280118,
-        "duration" : 4162
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Test Mail Address field with all numbers address",
-      "uid" : "77796035d609f295",
-      "parentUid" : "a9def585168df28d5e38793a522d0f60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573913280133,
-        "stop" : 1573913284683,
-        "duration" : 4550
+        "start" : 1573927156663,
+        "stop" : 1573927160801,
+        "duration" : 4138
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "a9def585168df28d5e38793a522d0f60"
+    "uid" : "5a861211e4e0941c3ac1f28fdb28e6db"
+  }, {
+    "name" : "tests.RegisterTests.testMobileFeild",
+    "children" : [ {
+      "name" : "Test Mobile number with valid input",
+      "uid" : "bf16c0eb8e8d0679",
+      "parentUid" : "49965a0e3b4d9bcf39f91824a5c49b81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927160823,
+        "stop" : 1573927166760,
+        "duration" : 5937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test Mobile number 8 characters",
+      "uid" : "6c600b18f646d07f",
+      "parentUid" : "49965a0e3b4d9bcf39f91824a5c49b81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927166777,
+        "stop" : 1573927170810,
+        "duration" : 4033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test Mobile number using the used input",
+      "uid" : "e311f5bd87d1bd6d",
+      "parentUid" : "49965a0e3b4d9bcf39f91824a5c49b81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927170823,
+        "stop" : 1573927174758,
+        "duration" : 3935
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test Mobile number with more than 13 characters",
+      "uid" : "a3f50be546abd780",
+      "parentUid" : "49965a0e3b4d9bcf39f91824a5c49b81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927174774,
+        "stop" : 1573927178866,
+        "duration" : 4092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1] 1234567",
+      "uid" : "e3232e6dd366dc3e",
+      "parentUid" : "49965a0e3b4d9bcf39f91824a5c49b81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927178881,
+        "stop" : 1573927182807,
+        "duration" : 3926
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] 1",
+      "uid" : "efce07f9af74adb3",
+      "parentUid" : "49965a0e3b4d9bcf39f91824a5c49b81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573927182821,
+        "stop" : 1573927186641,
+        "duration" : 3820
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "49965a0e3b4d9bcf39f91824a5c49b81"
   } ]
 }

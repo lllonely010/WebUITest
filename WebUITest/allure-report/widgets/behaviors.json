@@ -1,8 +1,107 @@
 {
-  "total" : 1,
+  "total" : 12,
   "items" : [ {
-    "uid" : "3b25f7b578ff270d86660e85f0aaf1c5",
-    "name" : "Register Tests Epic",
+    "uid" : "9b8b6c86594920195da84e0906743ff5",
+    "name" : "Test Password field with invalid input",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "780d7e04f3f695a90fa31657503b54e1",
+    "name" : "Test Mail Address field with {invalidmail} address",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "c25ab771ec95f3168a62014c7c3033c8",
+    "name" : "Test Mobile number with {invalidmobile} characters",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "1f00ed846010d27f5fbf139fd1974325",
+    "name" : "User tried to register with all valid input",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "012149c26e3c703d107e23785a5f8fc0",
+    "name" : "Test all requied err messages without any input",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2c5d47cf4493397d4fcdaf5d0d439b82",
+    "name" : "Test Password field with valid input",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a92c849378256373d2ce0e9630c63310",
+    "name" : "Test Mail Address field in valid address",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "85906389e366ac64323b2dc79244ea4b",
+    "name" : "Test Mail Address field with the used address",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "61638883705f8e0363f28e94d70d8c79",
+    "name" : "Test Mobile number with valid input",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "03efd33d1191cb0c1a7d4fa48d7229f2",
+    "name" : "Test Mobile number 8 characters",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,12 +1,12 @@
 {
-  "uid" : "7f0dfd665f1d2832",
+  "uid" : "de9a2d16b32da1d5",
   "name" : "Test all requied err messages without any input",
-  "fullName" : "tests.RegisterTests.testRequiredErrorMessage",
-  "historyId" : "690a55755deddca3864082137cae8e4a",
+  "fullName" : "tests.RegisterTests$testPageAction.testRequiredErrorMessage",
+  "historyId" : "a9c4850fb35adbaa96ca9fc5cdd78174",
   "time" : {
-    "start" : 1573913235589,
-    "stop" : 1573913238576,
-    "duration" : 2987
+    "start" : 1573927112699,
+    "stop" : 1573927115906,
+    "duration" : 3207
   },
   "description" : "Without any inputs, click next button to test all requied error messages in Register Page",
   "descriptionHtml" : "<p>Without any inputs, click next button to test all requied error messages in Register Page</p>\n",
@@ -20,17 +20,17 @@
     "steps" : [ {
       "name" : "Go to Register Page",
       "time" : {
-        "start" : 1573913235590,
-        "stop" : 1573913236573,
-        "duration" : 983
+        "start" : 1573927112700,
+        "stop" : 1573927113858,
+        "duration" : 1158
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Navigate To Register Page",
         "time" : {
-          "start" : 1573913235590,
-          "stop" : 1573913236564,
-          "duration" : 974
+          "start" : 1573927112701,
+          "stop" : 1573927113852,
+          "duration" : 1151
         },
         "status" : "passed",
         "steps" : [ ],
@@ -50,9 +50,9 @@
     }, {
       "name" : "Click next button",
       "time" : {
-        "start" : 1573913236573,
-        "stop" : 1573913237969,
-        "duration" : 1396
+        "start" : 1573927113859,
+        "stop" : 1573927115319,
+        "duration" : 1460
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,9 +65,9 @@
     }, {
       "name" : "Verify Mobile Number is required for mobile error.",
       "time" : {
-        "start" : 1573913237969,
-        "stop" : 1573913238069,
-        "duration" : 100
+        "start" : 1573927115319,
+        "stop" : 1573927115421,
+        "duration" : 102
       },
       "status" : "passed",
       "steps" : [ ],
@@ -83,9 +83,9 @@
     }, {
       "name" : "Verify Email address is required for mail error.",
       "time" : {
-        "start" : 1573913238069,
-        "stop" : 1573913238208,
-        "duration" : 139
+        "start" : 1573927115421,
+        "stop" : 1573927115512,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
@@ -101,9 +101,9 @@
     }, {
       "name" : "Verify Password is required for password error.",
       "time" : {
-        "start" : 1573913238208,
-        "stop" : 1573913238313,
-        "duration" : 105
+        "start" : 1573927115512,
+        "stop" : 1573927115607,
+        "duration" : 95
       },
       "status" : "passed",
       "steps" : [ ],
@@ -119,9 +119,9 @@
     }, {
       "name" : "Verify Please complete the Recaptcha. for span message.",
       "time" : {
-        "start" : 1573913238313,
-        "stop" : 1573913238410,
-        "duration" : 97
+        "start" : 1573927115608,
+        "stop" : 1573927115697,
+        "duration" : 89
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "Verify You must agree to the Terms & Conditions for span message.",
       "time" : {
-        "start" : 1573913238410,
-        "stop" : 1573913238495,
-        "duration" : 85
+        "start" : 1573927115697,
+        "stop" : 1573927115793,
+        "duration" : 96
       },
       "status" : "passed",
       "steps" : [ ],
@@ -155,9 +155,9 @@
     }, {
       "name" : "Verify There is an error in the form. Please check for details below. for warning notification.",
       "time" : {
-        "start" : 1573913238495,
-        "stop" : 1573913238576,
-        "duration" : 81
+        "start" : 1573927115793,
+        "stop" : 1573927115905,
+        "duration" : 112
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,9 +173,9 @@
     }, {
       "name" : "Finish test case",
       "time" : {
-        "start" : 1573913238576,
-        "stop" : 1573913238576,
-        "duration" : 0
+        "start" : 1573927115905,
+        "stop" : 1573927115906,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -195,12 +195,6 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Page elements validation Tests"
-  }, {
-    "name" : "epic",
-    "value" : "Register Tests Epic"
-  }, {
     "name" : "story",
     "value" : "Test all requied err messages without any input"
   }, {
@@ -208,7 +202,7 @@
     "value" : "DESKTOP-CQ0TMOR"
   }, {
     "name" : "thread",
-    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
+    "value" : "12992@DESKTOP-CQ0TMOR.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -217,16 +211,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testPageAction"
   }, {
     "name" : "testClass",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests$testPageAction"
   }, {
     "name" : "testMethod",
     "value" : "testRequiredErrorMessage"
   }, {
     "name" : "suite",
-    "value" : "tests.RegisterTests"
+    "value" : "tests.RegisterTests.testPageAction"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -241,6 +235,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7f0dfd665f1d2832.json",
+  "source" : "de9a2d16b32da1d5.json",
   "parameterValues" : [ ]
 }
