@@ -1,12 +1,12 @@
 {
-  "uid" : "965135fa103b4684",
+  "uid" : "9c2b4ba42973e047",
   "name" : "Verify happy flow in Register Page",
   "fullName" : "tests.RegisterTests.testFlow",
   "historyId" : "402ed900999bd7a92788c6c1d3c8ef6a",
   "time" : {
-    "start" : 1573769575291,
-    "stop" : 1573769579981,
-    "duration" : 4690
+    "start" : 1573913238589,
+    "stop" : 1573913243212,
+    "duration" : 4623
   },
   "description" : "Using valid mobile number, mail password and check all required checkbox",
   "descriptionHtml" : "<p>Using valid mobile number, mail password and check all required checkbox</p>\n",
@@ -18,26 +18,41 @@
     "description" : "Using valid mobile number, mail password and check all required checkbox",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Navigate To Register Page",
+      "name" : "Go to Register Page",
       "time" : {
-        "start" : 1573769575292,
-        "stop" : 1573769576355,
-        "duration" : 1063
+        "start" : 1573913238590,
+        "stop" : 1573913239659,
+        "duration" : 1069
       },
       "status" : "passed",
-      "steps" : [ ],
+      "steps" : [ {
+        "name" : "Navigate To Register Page",
+        "time" : {
+          "start" : 1573913238590,
+          "stop" : 1573913239650,
+          "duration" : 1060
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Type 69356898 for mobile number.",
       "time" : {
-        "start" : 1573769576360,
-        "stop" : 1573769576675,
-        "duration" : 315
+        "start" : 1573913239660,
+        "stop" : 1573913239991,
+        "duration" : 331
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,16 +61,16 @@
         "name" : "input",
         "value" : "69356898"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify Number available to register for mobile message box.",
       "time" : {
-        "start" : 1573769576676,
-        "stop" : 1573769577868,
-        "duration" : 1192
+        "start" : 1573913239991,
+        "stop" : 1573913241169,
+        "duration" : 1178
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,16 +79,16 @@
         "name" : "expectedText",
         "value" : "Number available to register"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Type 123456890@gmail.com for email address.",
       "time" : {
-        "start" : 1573769577868,
-        "stop" : 1573769578199,
-        "duration" : 331
+        "start" : 1573913241169,
+        "stop" : 1573913241479,
+        "duration" : 310
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,16 +97,16 @@
         "name" : "input",
         "value" : "123456890@gmail.com"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify Email available to register for mail message box.",
       "time" : {
-        "start" : 1573769578199,
-        "stop" : 1573769579391,
-        "duration" : 1192
+        "start" : 1573913241480,
+        "stop" : 1573913242728,
+        "duration" : 1248
       },
       "status" : "passed",
       "steps" : [ ],
@@ -100,16 +115,16 @@
         "name" : "expectedText",
         "value" : "Email available to register"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Type Qw11234668 for password.",
       "time" : {
-        "start" : 1573769579391,
-        "stop" : 1573769579694,
-        "duration" : 303
+        "start" : 1573913242728,
+        "stop" : 1573913242990,
+        "duration" : 262
       },
       "status" : "passed",
       "steps" : [ ],
@@ -118,40 +133,55 @@
         "name" : "input",
         "value" : "Qw11234668"
       } ],
-      "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Check recaptcha anchor.",
       "time" : {
-        "start" : 1573769579695,
-        "stop" : 1573769579980,
-        "duration" : 285
+        "start" : 1573913242991,
+        "stop" : 1573913243212,
+        "duration" : 221
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Finish test case",
+      "time" : {
+        "start" : 1573913243212,
+        "stop" : 1573913243212,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 9,
     "hasContent" : true,
-    "stepsCount" : 7,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Input Test"
-  }, {
     "name" : "epic",
-    "value" : "Register Page Tests Epic"
+    "value" : "Register Tests Epic"
+  }, {
+    "name" : "feature",
+    "value" : "Page elements validation Tests"
   }, {
     "name" : "story",
     "value" : "User tried to register with all valid input"
@@ -160,7 +190,7 @@
     "value" : "DESKTOP-CQ0TMOR"
   }, {
     "name" : "thread",
-    "value" : "13644@DESKTOP-CQ0TMOR.main(1)"
+    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -189,26 +219,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "654fc7cff10664e4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573769100527,
-        "stop" : 1573769105341,
-        "duration" : 4814
-      }
-    }, {
-      "uid" : "3950948c3d989721",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573766567727,
-        "stop" : 1573766572261,
-        "duration" : 4534
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "965135fa103b4684.json",
+  "source" : "9c2b4ba42973e047.json",
   "parameterValues" : [ ]
 }

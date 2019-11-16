@@ -7,6 +7,7 @@ import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import io.qameta.allure.Step;
 import helper.WebDriverFactory;
 import pages.BasePage;
 
@@ -18,6 +19,7 @@ public class BaseTest {
 	public static Logger LOGGER = LogManager.getLogger(BaseTest.class);
 
 	@BeforeAll
+	@Step("Log in to the web site")
 	public static void setupAll() {
 		LOGGER.info("Start to set up for all tests");
 		driver.manage().window().maximize();
@@ -25,6 +27,7 @@ public class BaseTest {
 	}
 
 	@AfterAll
+	@Step("Log off and cose the broswer")
 	public static void teardownAll() {
 		LOGGER.info("close the browser");
 		driver.quit();

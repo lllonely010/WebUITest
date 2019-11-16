@@ -1,50 +1,120 @@
 [ {
-  "uid" : "965135fa103b4684",
+  "uid" : "9c2b4ba42973e047",
   "name" : "Verify happy flow in Register Page",
   "time" : {
-    "start" : 1573769575291,
-    "stop" : 1573769579981,
-    "duration" : 4690
+    "start" : 1573913238589,
+    "stop" : 1573913243212,
+    "duration" : 4623
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a9632b913ced2329",
-  "name" : "Verify Password Number feild in Register Page",
+  "uid" : "baa1f37a3a254850",
+  "name" : "Test Mobile number with valid input",
   "time" : {
-    "start" : 1573769597254,
-    "stop" : 1573769608312,
-    "duration" : 11058
+    "start" : 1573913229252,
+    "stop" : 1573913235569,
+    "duration" : 6317
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5643ee6b3afd42c3",
-  "name" : "Verify Error message in Register Page",
+  "uid" : "a19db46d6ef3ad13",
+  "name" : "Test Mobile number with 2 characters",
   "time" : {
-    "start" : 1573769560565,
-    "stop" : 1573769564951,
-    "duration" : 4386
+    "start" : 1573913275956,
+    "stop" : 1573913280118,
+    "duration" : 4162
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2fd4ecda5820454a",
-  "name" : "Verify Email Address in Register Page",
+  "uid" : "f143083722fc2378",
+  "name" : "Test Mobile number 8 characters",
   "time" : {
-    "start" : 1573769565184,
-    "stop" : 1573769575260,
-    "duration" : 10076
+    "start" : 1573913267601,
+    "stop" : 1573913271744,
+    "duration" : 4143
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e363a0baadbe5a5f",
-  "name" : "Verify Mobile Number field in Register Page",
+  "uid" : "e08d338b35c8e9c",
+  "name" : "Test Password field with invalid input",
   "time" : {
-    "start" : 1573769580005,
-    "stop" : 1573769597228,
-    "duration" : 17223
+    "start" : 1573913260080,
+    "stop" : 1573913263401,
+    "duration" : 3321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "916798f4e2aaec1",
+  "name" : "Test Mobile number using the used input",
+  "time" : {
+    "start" : 1573913255845,
+    "stop" : 1573913260061,
+    "duration" : 4216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83cae5155beb1fa9",
+  "name" : "Test Mail Address field in valid address",
+  "time" : {
+    "start" : 1573913243237,
+    "stop" : 1573913255832,
+    "duration" : 12595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77796035d609f295",
+  "name" : "Test Mail Address field with all numbers address",
+  "time" : {
+    "start" : 1573913280133,
+    "stop" : 1573913284683,
+    "duration" : 4550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8438ee72315039a6",
+  "name" : "Test Mail Address field with the used address",
+  "time" : {
+    "start" : 1573913271769,
+    "stop" : 1573913275946,
+    "duration" : 4177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f0dfd665f1d2832",
+  "name" : "Test all requied err messages without any input",
+  "time" : {
+    "start" : 1573913235589,
+    "stop" : 1573913238576,
+    "duration" : 2987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c51ebee4825b96ac",
+  "name" : "Test Mobile number with more than 13 characters",
+  "time" : {
+    "start" : 1573913263412,
+    "stop" : 1573913267581,
+    "duration" : 4169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19dd0b2fb53f1b3c",
+  "name" : "Test Password field with valid input",
+  "time" : {
+    "start" : 1573913222913,
+    "stop" : 1573913229068,
+    "duration" : 6155
   },
   "status" : "passed",
   "severity" : "normal"

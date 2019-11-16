@@ -4,212 +4,165 @@
   "children" : [ {
     "name" : "DESKTOP-CQ0TMOR",
     "children" : [ {
-      "name" : "13644@DESKTOP-CQ0TMOR.main(1)",
+      "name" : "1380@DESKTOP-CQ0TMOR.main(1)",
       "children" : [ {
-        "name" : "Verify Email Address in Register Page",
-        "uid" : "2fd4ecda5820454a",
-        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
+        "name" : "Test Mail Address field with the used address",
+        "uid" : "8438ee72315039a6",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
         "status" : "passed",
         "time" : {
-          "start" : 1573769565184,
-          "stop" : 1573769575260,
-          "duration" : 10076
+          "start" : 1573913271769,
+          "stop" : 1573913275946,
+          "duration" : 4177
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Verify Error message in Register Page",
-        "uid" : "5643ee6b3afd42c3",
-        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
+        "name" : "Test Mail Address field in valid address",
+        "uid" : "83cae5155beb1fa9",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
         "status" : "passed",
         "time" : {
-          "start" : 1573769560565,
-          "stop" : 1573769564951,
-          "duration" : 4386
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify Password Number feild in Register Page",
-        "uid" : "a9632b913ced2329",
-        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573769597254,
-          "stop" : 1573769608312,
-          "duration" : 11058
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify Mobile Number field in Register Page",
-        "uid" : "e363a0baadbe5a5f",
-        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573769580005,
-          "stop" : 1573769597228,
-          "duration" : 17223
+          "start" : 1573913243237,
+          "stop" : 1573913255832,
+          "duration" : 12595
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Verify happy flow in Register Page",
-        "uid" : "965135fa103b4684",
-        "parentUid" : "2b697faa292adda148b6fb5196605cf5",
+        "uid" : "9c2b4ba42973e047",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
         "status" : "passed",
         "time" : {
-          "start" : 1573769575291,
-          "stop" : 1573769579981,
-          "duration" : 4690
+          "start" : 1573913238589,
+          "stop" : 1573913243212,
+          "duration" : 4623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Mobile number with more than 13 characters",
+        "uid" : "c51ebee4825b96ac",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573913263412,
+          "stop" : 1573913267581,
+          "duration" : 4169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Password field with invalid input",
+        "uid" : "e08d338b35c8e9c",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573913260080,
+          "stop" : 1573913263401,
+          "duration" : 3321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Mobile number using the used input",
+        "uid" : "916798f4e2aaec1",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573913255845,
+          "stop" : 1573913260061,
+          "duration" : 4216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Mobile number with 2 characters",
+        "uid" : "a19db46d6ef3ad13",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573913275956,
+          "stop" : 1573913280118,
+          "duration" : 4162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Password field with valid input",
+        "uid" : "19dd0b2fb53f1b3c",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573913222913,
+          "stop" : 1573913229068,
+          "duration" : 6155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Mobile number 8 characters",
+        "uid" : "f143083722fc2378",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573913267601,
+          "stop" : 1573913271744,
+          "duration" : 4143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Mail Address field with all numbers address",
+        "uid" : "77796035d609f295",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573913280133,
+          "stop" : 1573913284683,
+          "duration" : 4550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test all requied err messages without any input",
+        "uid" : "7f0dfd665f1d2832",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573913235589,
+          "stop" : 1573913238576,
+          "duration" : 2987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Mobile number with valid input",
+        "uid" : "baa1f37a3a254850",
+        "parentUid" : "d6c82d07354189f16dc79f0a4e3ac4bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573913229252,
+          "stop" : 1573913235569,
+          "duration" : 6317
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2b697faa292adda148b6fb5196605cf5"
-    }, {
-      "name" : "6556@DESKTOP-CQ0TMOR.main(1)",
-      "children" : [ {
-        "name" : "Verify Email Address in Register Page",
-        "uid" : "20e70fa0552e4221",
-        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573769090893,
-          "stop" : 1573769100507,
-          "duration" : 9614
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify happy flow in Register Page",
-        "uid" : "654fc7cff10664e4",
-        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573769100527,
-          "stop" : 1573769105341,
-          "duration" : 4814
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify Error message in Register Page",
-        "uid" : "bde88e30b7f1c12b",
-        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573769086903,
-          "stop" : 1573769090772,
-          "duration" : 3869
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify Mobile Number field in Register Page",
-        "uid" : "d48058f3919c7aba",
-        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573769105357,
-          "stop" : 1573769120757,
-          "duration" : 15400
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify Password Number feild in Register Page",
-        "uid" : "67f1d1b13977178b",
-        "parentUid" : "fcfc98c340bce87f6e9fd99e85432aa8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573769120774,
-          "stop" : 1573769127004,
-          "duration" : 6230
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fcfc98c340bce87f6e9fd99e85432aa8"
-    }, {
-      "name" : "1008@DESKTOP-CQ0TMOR.main(1)",
-      "children" : [ {
-        "name" : "Verify Mobile Number field in Register Page",
-        "uid" : "6c4a113d6c7ee4fc",
-        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573766572277,
-          "stop" : 1573766589290,
-          "duration" : 17013
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify Error message in Register Page",
-        "uid" : "d9c55ca003cb8ba8",
-        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573766552967,
-          "stop" : 1573766557390,
-          "duration" : 4423
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify Password Number feild in Register Page",
-        "uid" : "b37a102ff9ada6f0",
-        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573766589308,
-          "stop" : 1573766595657,
-          "duration" : 6349
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify Email Address in Register Page",
-        "uid" : "582755b55db31079",
-        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573766557505,
-          "stop" : 1573766567703,
-          "duration" : 10198
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify happy flow in Register Page",
-        "uid" : "3950948c3d989721",
-        "parentUid" : "2a60a7bf4ab7bad745b6c990897ef883",
-        "status" : "passed",
-        "time" : {
-          "start" : 1573766567727,
-          "stop" : 1573766572261,
-          "duration" : 4534
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "2a60a7bf4ab7bad745b6c990897ef883"
+      "uid" : "d6c82d07354189f16dc79f0a4e3ac4bc"
     } ],
     "uid" : "5c7d4d6c57fbdb1d6fefae4dd2973f95"
   } ]

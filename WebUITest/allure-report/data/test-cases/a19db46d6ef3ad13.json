@@ -1,0 +1,192 @@
+{
+  "uid" : "a19db46d6ef3ad13",
+  "name" : "Test Mobile number with 2 characters",
+  "fullName" : "tests.RegisterTests.testMobileWithInvalidNumber",
+  "historyId" : "d6f6213452cf1cd1dc22753dac2e6bb2",
+  "time" : {
+    "start" : 1573913275956,
+    "stop" : 1573913280118,
+    "duration" : 4162
+  },
+  "description" : "Using 2 characters mobile number, feild check failed and error message after click next button",
+  "descriptionHtml" : "<p>Using 2 characters mobile number, feild check failed and error message after click next button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Using 2 characters mobile number, feild check failed and error message after click next button",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to Register Page",
+      "time" : {
+        "start" : 1573913275957,
+        "stop" : 1573913277061,
+        "duration" : 1104
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigate To Register Page",
+        "time" : {
+          "start" : 1573913275957,
+          "stop" : 1573913277057,
+          "duration" : 1100
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Type 12 for mobile number.",
+      "time" : {
+        "start" : 1573913277062,
+        "stop" : 1573913277324,
+        "duration" : 262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "12"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Phone number is invalid for mobile message box.",
+      "time" : {
+        "start" : 1573913277324,
+        "stop" : 1573913278522,
+        "duration" : 1198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Phone number is invalid"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click next button",
+      "time" : {
+        "start" : 1573913278522,
+        "stop" : 1573913279903,
+        "duration" : 1381
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Telephone number must be longer than 9 characters for mobile error.",
+      "time" : {
+        "start" : 1573913279903,
+        "stop" : 1573913280117,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Telephone number must be longer than 9 characters"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Finish test case",
+      "time" : {
+        "start" : 1573913280118,
+        "stop" : 1573913280118,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Register Tests Epic"
+  }, {
+    "name" : "feature",
+    "value" : "Page elements validation Tests"
+  }, {
+    "name" : "story",
+    "value" : "Test Mobile number with 2 characters"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CQ0TMOR"
+  }, {
+    "name" : "thread",
+    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMobileWithInvalidNumber"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a19db46d6ef3ad13.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,174 @@
+{
+  "uid" : "83cae5155beb1fa9",
+  "name" : "Test Mail Address field in valid address",
+  "fullName" : "tests.RegisterTests.testValidEmail",
+  "historyId" : "b155c034fccaf06ff4686fe91e67e5bb",
+  "time" : {
+    "start" : 1573913243237,
+    "stop" : 1573913255832,
+    "duration" : 12595
+  },
+  "description" : "Using valid email address input, feild check passed and no error message",
+  "descriptionHtml" : "<p>Using valid email address input, feild check passed and no error message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Using valid email address input, feild check passed and no error message",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to Register Page",
+      "time" : {
+        "start" : 1573913243238,
+        "stop" : 1573913244259,
+        "duration" : 1021
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigate To Register Page",
+        "time" : {
+          "start" : 1573913243238,
+          "stop" : 1573913244254,
+          "duration" : 1016
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Type 123456456@gmail.com for email address.",
+      "time" : {
+        "start" : 1573913244259,
+        "stop" : 1573913244618,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "123456456@gmail.com"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Email available to register for mail message box.",
+      "time" : {
+        "start" : 1573913244618,
+        "stop" : 1573913245821,
+        "duration" : 1203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Email available to register"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify no mail error.",
+      "time" : {
+        "start" : 1573913245822,
+        "stop" : 1573913255831,
+        "duration" : 10009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Finish test case",
+      "time" : {
+        "start" : 1573913255832,
+        "stop" : 1573913255832,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Page elements validation Tests"
+  }, {
+    "name" : "epic",
+    "value" : "Register Tests Epic"
+  }, {
+    "name" : "story",
+    "value" : "Test Mail Address field in valid address"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CQ0TMOR"
+  }, {
+    "name" : "thread",
+    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testValidEmail"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83cae5155beb1fa9.json",
+  "parameterValues" : [ ]
+}

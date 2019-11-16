@@ -1,0 +1,192 @@
+{
+  "uid" : "8438ee72315039a6",
+  "name" : "Test Mail Address field with the used address",
+  "fullName" : "tests.RegisterTests.testInUsedEmail",
+  "historyId" : "899ac7b81ffe4fd4844ef11a9c7a92e1",
+  "time" : {
+    "start" : 1573913271769,
+    "stop" : 1573913275946,
+    "duration" : 4177
+  },
+  "description" : "Using the used address email address input, feild check failed and error message displayed after click next button",
+  "descriptionHtml" : "<p>Using the used address email address input, feild check failed and error message displayed after click next button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Using the used address email address input, feild check failed and error message displayed after click next button",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to Register Page",
+      "time" : {
+        "start" : 1573913271770,
+        "stop" : 1573913272745,
+        "duration" : 975
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigate To Register Page",
+        "time" : {
+          "start" : 1573913271770,
+          "stop" : 1573913272737,
+          "duration" : 967
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Type 123456@gmail.com for email address.",
+      "time" : {
+        "start" : 1573913272746,
+        "stop" : 1573913273156,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "123456@gmail.com"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Email is already in use for mail message box.",
+      "time" : {
+        "start" : 1573913273157,
+        "stop" : 1573913274365,
+        "duration" : 1208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Email is already in use"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click next button",
+      "time" : {
+        "start" : 1573913274365,
+        "stop" : 1573913275814,
+        "duration" : 1449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Email address already in use. Forgotten your Pin? for mail error.",
+      "time" : {
+        "start" : 1573913275814,
+        "stop" : 1573913275945,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Email address already in use. Forgotten your Pin?"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Finish test case",
+      "time" : {
+        "start" : 1573913275945,
+        "stop" : 1573913275945,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Page elements validation Tests"
+  }, {
+    "name" : "epic",
+    "value" : "Register Tests Epic"
+  }, {
+    "name" : "story",
+    "value" : "Test Mail Address field with the used address"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CQ0TMOR"
+  }, {
+    "name" : "thread",
+    "value" : "1380@DESKTOP-CQ0TMOR.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testInUsedEmail"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8438ee72315039a6.json",
+  "parameterValues" : [ ]
+}
