@@ -1,0 +1,168 @@
+{
+  "uid" : "7bae232f9c4a41c",
+  "name" : "Test Mail Address field in valid address",
+  "fullName" : "tests.RegisterTests$testEmailFeild.testValidEmailAddress",
+  "historyId" : "59f5447a18056852a5a06110283a066",
+  "time" : {
+    "start" : 1574071683344,
+    "stop" : 1574071695631,
+    "duration" : 12287
+  },
+  "description" : "Using valid email address input, feild check passed and no error message",
+  "descriptionHtml" : "<p>Using valid email address input, feild check passed and no error message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Using valid email address input, feild check passed and no error message",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to Register Page",
+      "time" : {
+        "start" : 1574071683344,
+        "stop" : 1574071684113,
+        "duration" : 769
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigate To Register Page",
+        "time" : {
+          "start" : 1574071683345,
+          "stop" : 1574071684110,
+          "duration" : 765
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Type 123456456@gmail.com for email address.",
+      "time" : {
+        "start" : 1574071684113,
+        "stop" : 1574071684391,
+        "duration" : 278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "123456456@gmail.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Email available to register for mail message box.",
+      "time" : {
+        "start" : 1574071684392,
+        "stop" : 1574071685562,
+        "duration" : 1170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Email available to register"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify no mail error.",
+      "time" : {
+        "start" : 1574071685562,
+        "stop" : 1574071695630,
+        "duration" : 10068
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Finish test case",
+      "time" : {
+        "start" : 1574071695630,
+        "stop" : 1574071695631,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test Mail Address field in valid address"
+  }, {
+    "name" : "host",
+    "value" : "JELI-VM01"
+  }, {
+    "name" : "thread",
+    "value" : "7600@JELI-VM01.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests$testEmailFeild"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests$testEmailFeild"
+  }, {
+    "name" : "testMethod",
+    "value" : "testValidEmailAddress"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests.testEmailFeild"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bae232f9c4a41c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,153 @@
+{
+  "uid" : "f5450a82227a285f",
+  "name" : "[5] wertgfdertyuj",
+  "fullName" : "tests.RegisterTests$testPasswordFeild.testInvalidPassword",
+  "historyId" : "a7a8309fd4f50e46bf07db2844e78215",
+  "time" : {
+    "start" : 1574071669367,
+    "stop" : 1574071670949,
+    "duration" : 1582
+  },
+  "description" : "Using invalid input to test validation and error message",
+  "descriptionHtml" : "<p>Using invalid input to test validation and error message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Using invalid input to test validation and error message",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to Register Page",
+      "time" : {
+        "start" : 1574071669368,
+        "stop" : 1574071670364,
+        "duration" : 996
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigate To Register Page",
+        "time" : {
+          "start" : 1574071669368,
+          "stop" : 1574071670360,
+          "duration" : 992
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Type wertgfdertyuj for password.",
+      "time" : {
+        "start" : 1574071670364,
+        "stop" : 1574071670716,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "wertgfdertyuj"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify The password does not meet the correct format. for password error.",
+      "time" : {
+        "start" : 1574071670716,
+        "stop" : 1574071670948,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "The password does not meet the correct format."
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Finish test case",
+      "time" : {
+        "start" : 1574071670948,
+        "stop" : 1574071670948,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test Password field with invalid input"
+  }, {
+    "name" : "host",
+    "value" : "JELI-VM01"
+  }, {
+    "name" : "thread",
+    "value" : "7600@JELI-VM01.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests$testPasswordFeild"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests$testPasswordFeild"
+  }, {
+    "name" : "testMethod",
+    "value" : "testInvalidPassword"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests.testPasswordFeild"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5450a82227a285f.json",
+  "parameterValues" : [ ]
+}

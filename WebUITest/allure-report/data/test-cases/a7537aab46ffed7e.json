@@ -1,0 +1,186 @@
+{
+  "uid" : "a7537aab46ffed7e",
+  "name" : "Test Mobile number 8 characters",
+  "fullName" : "tests.RegisterTests$testMobileFeild.testMobileWith8Number",
+  "historyId" : "d09dd909f88625c9503715bc4e9723e4",
+  "time" : {
+    "start" : 1574071706148,
+    "stop" : 1574071710859,
+    "duration" : 4711
+  },
+  "description" : "Using 8 characters mobile number, feild check passed and error message displayed after click next button",
+  "descriptionHtml" : "<p>Using 8 characters mobile number, feild check passed and error message displayed after click next button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Using 8 characters mobile number, feild check passed and error message displayed after click next button",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to Register Page",
+      "time" : {
+        "start" : 1574071706149,
+        "stop" : 1574071707344,
+        "duration" : 1195
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Navigate To Register Page",
+        "time" : {
+          "start" : 1574071706149,
+          "stop" : 1574071707340,
+          "duration" : 1191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Type 69356898 for mobile number.",
+      "time" : {
+        "start" : 1574071707344,
+        "stop" : 1574071707654,
+        "duration" : 310
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "input",
+        "value" : "69356898"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Number available to register for mobile message box.",
+      "time" : {
+        "start" : 1574071707654,
+        "stop" : 1574071708856,
+        "duration" : 1202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Number available to register"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click next button",
+      "time" : {
+        "start" : 1574071708856,
+        "stop" : 1574071710740,
+        "duration" : 1884
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Telephone number must be longer than 9 characters for mobile error.",
+      "time" : {
+        "start" : 1574071710740,
+        "stop" : 1574071710858,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Telephone number must be longer than 9 characters"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Finish test case",
+      "time" : {
+        "start" : 1574071710859,
+        "stop" : 1574071710859,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test Mobile number 8 characters"
+  }, {
+    "name" : "host",
+    "value" : "JELI-VM01"
+  }, {
+    "name" : "thread",
+    "value" : "7600@JELI-VM01.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.RegisterTests$testMobileFeild"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.RegisterTests$testMobileFeild"
+  }, {
+    "name" : "testMethod",
+    "value" : "testMobileWith8Number"
+  }, {
+    "name" : "suite",
+    "value" : "tests.RegisterTests.testMobileFeild"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7537aab46ffed7e.json",
+  "parameterValues" : [ ]
+}
